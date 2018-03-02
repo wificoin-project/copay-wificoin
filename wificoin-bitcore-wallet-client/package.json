@@ -1,0 +1,131 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bitcore-wallet-client@6.6.3",
+        "scope": null,
+        "escapedName": "bitcore-wallet-client",
+        "name": "bitcore-wallet-client",
+        "rawSpec": "6.6.3",
+        "spec": "6.6.3",
+        "type": "version"
+      },
+      "/home/gigibox/wificoin/copay-wificoin"
+    ]
+  ],
+  "_from": "bitcore-wallet-client@6.6.3",
+  "_id": "bitcore-wallet-client@6.6.3",
+  "_inCache": true,
+  "_location": "/bitcore-wallet-client",
+  "_nodeVersion": "9.5.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bitcore-wallet-client_6.6.3_1519322903808_0.21069814646327556"
+  },
+  "_npmUser": {
+    "name": "ematiu",
+    "email": "ematiu@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bitcore-wallet-client@6.6.3",
+    "scope": null,
+    "escapedName": "bitcore-wallet-client",
+    "name": "bitcore-wallet-client",
+    "rawSpec": "6.6.3",
+    "spec": "6.6.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitcore-wallet-client/-/bitcore-wallet-client-6.6.3.tgz",
+  "_shasum": "b47b859639e75c82e48070c8df1afa75d6c9523f",
+  "_shrinkwrap": null,
+  "_spec": "bitcore-wallet-client@6.6.3",
+  "_where": "/home/gigibox/wificoin/copay-wificoin",
+  "author": {
+    "name": "BitPay Inc"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore-wallet-client/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bip38": "^1.3.0",
+    "wificoin-lib": "git://github.com/KunTengRom/wificoin-lib.git",
+    "bitcore-lib-cash": "^0.16.1",
+    "bitcore-mnemonic": "^1.3.0",
+    "bitcore-payment-protocol": "^1.6.0",
+    "json-stable-stringify": "^1.0.0",
+    "lodash": "^4.17.4",
+    "preconditions": "^1.0.8",
+    "sjcl": "1.0.3",
+    "superagent": "^3.4.1"
+  },
+  "description": "Client for bitcore-wallet-service",
+  "devDependencies": {
+    "bitcore-wallet-service": "2.3.0",
+    "browserify": "^13.1.0",
+    "chai": "^1.9.1",
+    "coveralls": "^2.11.2",
+    "grunt": "~0.4.0",
+    "grunt-jsdox": "github:matiu/grunt-jsdox#update/jsdoc-4.10",
+    "istanbul": "*",
+    "mocha": "^1.18.2",
+    "sinon": "^1.10.3",
+    "supertest": "^3.0.0",
+    "tingodb": "^0.3.4",
+    "uglify": "^0.1.1",
+    "uuid": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-y7S+OyvocKBA8GZASsuJDx8HePxGEr+NePy44/A4YDNPznhedW+gwU5IbvwUCcdwQnzsJlnRp4S4k13geRrW3Q==",
+    "shasum": "b47b859639e75c82e48070c8df1afa75d6c9523f",
+    "tarball": "https://registry.npmjs.org/bitcore-wallet-client/-/bitcore-wallet-client-6.6.3.tgz",
+    "fileCount": 32,
+    "unpackedSize": 5802314
+  },
+  "engine": "node >= 8.0.0",
+  "gitHead": "59bbb895c41c436044dd667bcb40eed2fe6a3c0a",
+  "homepage": "https://github.com/bitpay/bitcore-wallet-client#readme",
+  "keywords": [
+    "bitcoin",
+    "copay",
+    "multisig",
+    "wallet",
+    "client",
+    "bitcore",
+    "BWS",
+    "BWC"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "cmgustavo",
+      "email": "cmgustavo83@gmail.com"
+    },
+    {
+      "name": "ematiu",
+      "email": "ematiu@gmail.com"
+    }
+  ],
+  "name": "bitcore-wallet-client",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "url": "git+ssh://git@github.com/bitpay/bitcore-wallet-client.git",
+    "type": "git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -- --reporter spec test",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "docs": "jsdox lib/* lib/common lib/errors -o docs && cat README.header.md  docs/*.md LICENSE > README.md",
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "version": "6.6.3"
+}

@@ -1,0 +1,43 @@
+#view-confirm {
+  background-color: #ffffff;
+  .item-note {
+    float: none;
+    .fee-rate {
+      display: inline-block;
+      .warn {
+        color: red;
+      }
+
+    }
+  }
+  .icon-amazon {
+    background-image: url("../img/icon-amazon.svg");
+  }
+  .tx-details-content > .scroll {
+    padding-bottom: .25rem;
+  }
+  .gravatar-contact {
+    display: flex;
+    margin-left: -3px;
+    span {
+      margin: 5px 0 0 8px;
+    }
+  }
+  .wallet-name {
+    margin-top: -3px;
+  }
+  .toggle {
+    cursor: pointer;
+  }
+  .box-notification {
+    margin: 0;
+    .i-info {
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+    .i-arrow {
+      float: right;
+      margin-right: 10px;
+    }
+  }
+}

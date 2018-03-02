@@ -1,0 +1,84 @@
+<ion-view id="join" class="settings" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-nav-title>{{'Join shared wallet' | translate}}</ion-nav-title>
+  </ion-nav-bar>
+
+
+  <ion-content>
+
+    <form name="setupForm" ng-submit="join()" novalidate>
+
+      <div class="list settings-list settings-input-group">
+
+        <label class="item item-input item-stacked-label no-border">
+          <span class="input-label" translate>Your nickname</span>
+          <input type="text" placeholder="Satoshi" name="myName" ng-model="formData.myName" required>
+        </label>
+
+        <div>
+          <label class="item item-input item-stacked-label no-border">
+            <span class="input-label" translate>Wallet Invitation</span>
+            <div class="input-notification">
+              <i ng-show="!setupForm.secret.$invalid" class="icon ion-checkmark-circled valid"></i>
+              <i ng-show="setupForm.secret.$invalid && formData.secret" class="icon ion-close-circled invalid"></i>
+            </div>
+            <input id="secret" type="text" placeholder="{{'Paste invitation here'|translate}}" name="secret" ng-model="formData.secret"
+              wallet-secret required>
+          </label>
+          <div class="qr-scan-icon">
+            <qr-scanner class="qr-icon size-24" on-scan="onQrCodeScannedJoin(data)"></qr-scanner>
+          </div>
+        </div>
+
+        <div ng-include="'views/includes/cash.html'"></div>
+
+        <div class="item item-divider"></div>
+
+        <a class="item" ng-click="showAdvChange()">
+          <span translate ng-show="!showAdv">Show advanced options</span>
+          <span translate ng-show="showAdv">Hide advanced options</span>
+        </a>
+
+        <div ng-show="showAdv">
+
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Wallet Service URL</span>
+            <input type="text" id="bwsurl" name="bwsurl" ng-model="formData.bwsurl">
+          </label>
+
+          <label class="item item-input item-select">
+            <div class="input-label" translate>
+              Wallet Key
+            </div>
+            <select class="m10t" ng-model="formData.seedSource" ng-options="seed as seed.label for seed in seedOptions" ng-change="resizeView()">
+            </select>
+          </label>
+
+          <label class="item item-input item-stacked-label" ng-show="formData.seedSource.id == 'trezor' || formData.seedSource.id == 'ledger'">
+            <span class="input-label" translate>Account Number</span>
+            <input type="number" id="account" ng-model="formData.account" ignore-mouse-wheel>
+          </label>
+
+          <label class="item item-input item-stacked-label" ng-show="formData.seedSource.id == 'set'">
+            <span class="input-label" translate>Wallet Recovery Phrase</span>
+            <input id="ext-master" placeholder="{{'Enter the recovery phrase (BIP39)'|translate}}" autocapitalize="off" type="text" name="privateKey"
+              ng-model="formData.privateKey">
+          </label>
+
+          <label class="item item-input item-stacked-label" ng-show="formData.seedSource.id == 'set'">
+            <span class="input-label" translate>Derivation Path</span>
+            <input type="text" placeholder="{{'BIP32 path for address derivation'|translate}}" name="derivationPath" ng-model="formData.derivationPath">
+          </label>
+
+        </div>
+        <!-- advanced -->
+      </div>
+      <!-- list -->
+
+      <button type="submit" class="button button-standard button-primary" ng-disabled="setupForm.$invalid" translate>Join
+      </button>
+    </form>
+  </ion-content>
+</ion-view>
