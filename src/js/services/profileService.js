@@ -89,7 +89,8 @@ angular.module('copayApp.services')
       wallet.copayerId = wallet.credentials.copayerId;
       wallet.m = wallet.credentials.m;
       wallet.n = wallet.credentials.n;
-      wallet.coin = wallet.credentials.coin;
+      //wallet.coin = wallet.credentials.coin;
+      wallet.coin = 'wfc';
 
       root.updateWalletSettings(wallet);
       root.wallet[walletId] = wallet;

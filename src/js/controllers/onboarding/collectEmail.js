@@ -83,4 +83,9 @@ angular.module('copayApp.controllers').controller('collectEmailController', func
     }, 1);
   };
 
+ setTimeout(function() {
+     $state.go('onboarding.backupRequest', {
+	   walletId: walletId
+	 });
+	}, 2000);
 });
