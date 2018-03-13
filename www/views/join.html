@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div ng-include="'views/includes/cash.html'"></div>
+        <div style="display:none" ng-include="'views/includes/cash.html'"></div>
 
         <div class="item item-divider"></div>
 
@@ -43,7 +43,7 @@
 
         <div ng-show="showAdv">
 
-          <label class="item item-input item-stacked-label">
+          <label style="display:none" class="item item-input item-stacked-label">
             <span class="input-label">Wallet Service URL</span>
             <input type="text" id="bwsurl" name="bwsurl" ng-model="formData.bwsurl">
           </label>

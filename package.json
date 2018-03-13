@@ -17,7 +17,7 @@
   "main": "www/index.html",
   "title": "Copay",
   "window": {
-    "title": "Copay - Copay Bitcoin Wallet",
+    "title": "Wificoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
@@ -46,7 +46,7 @@
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/copay/issues"
+    "url": "https://talk.kunteng.org"
   },
   "engines": {
    "node": "6",
