@@ -283,7 +283,7 @@ msgstr "可审核"
 
 #: www/views/modals/wallet-balance.html:42
 msgid "Available"
-msgstr "可用空间"
+msgstr "可用金额"
 
 #: www/views/includes/available-balance.html:3
 msgid "Available Balance"
@@ -381,7 +381,7 @@ msgstr "热点币现金支付"
 
 #: www/views/onboarding/tour.html:31
 msgid "Wificoin is a currency."
-msgstr "热点币是一种货币。"
+msgstr "热点币也是一种通用货币。"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Wificoin is different &ndash; it cannot be safely held with a bank or web service."
@@ -585,12 +585,12 @@ msgstr "确认你的新支付密码"
 
 #: www/views/tx-details.html:98
 msgid "Confirmations"
-msgstr "确认"
+msgstr "等待确认"
 
 #: www/views/bitpayCard.html:68
 #: www/views/modals/wallet-balance.html:61
 msgid "Confirming"
-msgstr "确认"
+msgstr "等待确认"
 
 #: www/views/bitpayCardIntro.html:37
 msgid "Connect my BitPay Card"
@@ -1709,7 +1709,7 @@ msgstr "用PIN码锁定"
 
 #: www/views/modals/wallet-balance.html:80
 msgid "Locked"
-msgstr "锁定"
+msgstr "锁定金额"
 
 #: src/js/services/bwcError.js:86
 msgid "Locktime in effect. Please wait to create a new spend proposal"
@@ -2038,7 +2038,7 @@ msgstr "打开 GitHub 项目"
 #: src/js/controllers/bitpayCard.js:123
 #: src/js/controllers/tx-details.js:192
 msgid "Open Insight"
-msgstr "打开Insight"
+msgstr "查看"
 
 #: www/views/tab-scan.html:22
 msgid "Open Settings"
@@ -2860,15 +2860,15 @@ msgstr "Ledger Chrome 应用程序未安装"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of wificoin immediately spendable from this wallet."
-msgstr "立即从这个钱包中消费。"
+msgstr "可以直接消费的金额"
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of wificoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "存储在此钱包中的热点币的数量作为未决交易提案的输入分配。该金额的使用与该钱包相关联的未使用的交易输出来确定，并且可能大于与未决交易提议相关联的实际金额。"
+msgstr "存储在此钱包中的作为未决交易提议的输入分配的金额。该金额使用由该钱包相关联的未使用的交易输出来确定，并且可能大于与未决交易提议相关联的实际金额"
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of wificoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "此钱包中储存的热点币数量少于1 blockchain确认"
+msgstr "此金额少于1个区块确认。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2892,7 +2892,7 @@ msgstr "官方的英语术语服务是可在 BitPay 网站上。"
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
-msgstr "恢复短语的密码 (如已设置)"
+msgstr "恢复短语的密码(是否设置)"
 
 #: src/js/services/walletService.js:1169
 msgid "The payment was created but could not be completed. Please try again from home screen"
@@ -3099,7 +3099,7 @@ msgstr "热点币变成美元，刷在接受 Visa<sup>®</sup> 的任何地方�
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
-msgstr "键入恢复短语 （通常 12 个字）"
+msgstr "请输入恢复短语 （汉字间以空格隔开）"
 
 #: src/js/controllers/backup.js:75
 msgid "Uh oh..."
@@ -3173,7 +3173,7 @@ msgstr "查看服务条款"
 #: src/js/controllers/bitpayCard.js:122
 #: src/js/controllers/tx-details.js:191
 msgid "View Transaction on Insight"
-msgstr "通过Insight查看交易记录"
+msgstr "通过浏览区块查看交易记录"
 
 #: src/js/controllers/tab-home.js:149
 msgid "View Update"

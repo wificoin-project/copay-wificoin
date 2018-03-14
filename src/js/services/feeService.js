@@ -32,6 +32,7 @@ angular.module('copayApp.services').factory('feeService', function($log, bwcServ
     network = network || 'livenet';
 
     root.getFeeLevels(coin, function(err, levels, fromCache) {
+	  coin = 'btc';
       if (err) return cb(err);
 
       var feeLevelRate = lodash.find(levels[network], {
@@ -55,11 +56,12 @@ angular.module('copayApp.services').factory('feeService', function($log, bwcServ
   };
 
   root.getCurrentFeeRate = function(coin, network, cb) {
+    coin = 'btc';
     return root.getFeeRate(coin, network, root.getCurrentFeeLevel(), cb);
   };
 
   root.getFeeLevels = function(coin, cb) {
-    coin = coin || 'btc';
+    coin = 'btc';
 
     if (cache.coin == coin && cache.updateTs > Date.now() - CACHE_TIME_TS * 1000) {
       return cb(null, cache.data, true);

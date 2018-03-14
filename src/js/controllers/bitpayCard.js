@@ -116,7 +116,7 @@ angular.module('copayApp.controllers').controller('bitpayCardController', functi
   };
 
   this.viewOnBlockchain = function(transactionId) {
-    var url = 'https://insight.bitpay.com/tx/' + transactionId;
+    var url = 'http://wfc.kunteng.org:3001/insight-api/tx/' + transactionId;
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');

@@ -2,7 +2,7 @@
   "//":"Changes to this file will be overwritten",
   "//":"        Modify it in the app-template directory", 
 
-  "name": "copay",
+  "name": "wificoin",
   "description": "A Secure Bitcoin Wallet",
   "author": "BitPay",
   "version": "3.14.2",
@@ -15,7 +15,7 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "Copay",
+  "title": "Wificoin",
   "window": {
     "title": "Wificoin Wallet",
     "icon": "www/img/app/icon.png",
