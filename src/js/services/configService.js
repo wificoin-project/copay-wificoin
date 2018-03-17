@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'http://114.112.99.254:3232/bws/api',
+      url: 'https://wfc.kunteng.org:3232/bws/api',
     },
 
     download: {
@@ -43,7 +43,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       requiredCopayers: 2,
       totalCopayers: 3,
       spendUnconfirmed: false,
-      reconnectDelay: 5000,
+      reconnectDelay: 30 * 1000,
       idleDurationMin: 4,
       settings: {
         unitName: 'BTC',
@@ -70,7 +70,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'http://wfc.kunteng.org:3001/insight-api/rates',
+      url: 'https://wfc.kunteng.org:3001/insight-api/rates',
     },
 
     release: {

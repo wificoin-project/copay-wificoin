@@ -11,14 +11,14 @@
       <div class="settings-heading" translate>Wificoin transactions include a fee collected by miners on the network.</div>
       <div class="settings-description" translate>The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy.</div>
       <div class="estimates">
-        <div>
+        <div style="display:none">
           <span translate>Average confirmation time</span>:
           <span class="fee-minutes" ng-if="avgConfirmationTime">{{avgConfirmationTime | amDurationFormat: 'minute'}}</span>
           <span ng-if="loadingFee">...</span>
         </div>
         <div>
           <span translate>Current fee rate for this policy</span>:
-          <span class="fee-rate" ng-if="feePerSatByte">{{feePerSatByte}} satoshis/byte</span>
+          <span class="fee-rate" ng-if="feePerSatByte">{{feePerSatByte}} feng/byte</span>
           <span ng-if="loadingFee">...</span>
         </div>
       </div>

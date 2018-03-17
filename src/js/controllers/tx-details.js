@@ -118,6 +118,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
     walletService.getTx($scope.wallet, txId, function(err, tx) {
       if (!opts.hideLoading) ongoingProcess.set('loadingTxInfo', false);
       if (err) {
+	return;
         $log.warn('Error getting transaction: ' + err);
         $ionicHistory.goBack();
         return popupService.showAlert(gettextCatalog.getString('Error'), gettextCatalog.getString('Transaction not available at this time'));
@@ -191,7 +192,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
   $scope.viewOnBlockchain = function() {
     var btx = $scope.btx;
-    var url = 'http://' + ($scope.getShortNetworkName() == 'test' ? 'test-' : '') + blockexplorerUrl + '/tx/' + btx.txid;
+    var url = 'https://' + ($scope.getShortNetworkName() == 'test' ? 'test-' : '') + blockexplorerUrl + '/tx/' + btx.txid;
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');

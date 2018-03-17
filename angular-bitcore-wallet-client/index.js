@@ -38,7 +38,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'http://114.112.99.254:3232/bws/api',
+        baseUrl: opts.bwsurl || 'https://wfc.kunteng.org:3232/bws/api',
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

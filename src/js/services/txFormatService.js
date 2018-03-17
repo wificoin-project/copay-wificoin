@@ -125,7 +125,7 @@ angular.module('copayApp.services').factory('txFormatService', function($filter,
 
     tx.amountStr = root.formatAmountStr(coin, tx.amount);
     tx.alternativeAmountStr = root.formatAlternativeStr(coin, tx.amount);
-    tx.feeStr = root.formatAmountStr(coin, tx.fee || tx.fees);
+    tx.feeStr = root.formatAmountStr(coin, tx.fee || tx.fees || 0);
 
     if (tx.amountStr) {
       tx.amountValueStr = tx.amountStr.split(' ')[0];

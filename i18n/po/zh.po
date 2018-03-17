@@ -234,7 +234,7 @@ msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你
 
 #: www/views/addresses.html:94
 msgid "Approximate Wificoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "转移钱包余额大约需要的热点币网络费用（正常优先级）"
+msgstr "转移余额大约需要的矿工费（正常优先级）"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -585,12 +585,12 @@ msgstr "确认你的新支付密码"
 
 #: www/views/tx-details.html:98
 msgid "Confirmations"
-msgstr "等待确认"
+msgstr "确认"
 
 #: www/views/bitpayCard.html:68
 #: www/views/modals/wallet-balance.html:61
 msgid "Confirming"
-msgstr "等待确认"
+msgstr "确认"
 
 #: www/views/bitpayCardIntro.html:37
 msgid "Connect my BitPay Card"
@@ -2783,7 +2783,7 @@ msgstr "成功"
 
 #: src/js/services/feeService.js:14
 msgid "Super Economy"
-msgstr "超级经济"
+msgstr "最低"
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
@@ -3139,7 +3139,7 @@ msgstr "更新中… 请等待"
 
 #: src/js/services/feeService.js:10
 msgid "Urgent"
-msgstr "非常快"
+msgstr "更快"
 
 #: www/views/advancedSettings.html:12
 msgid "Use Unconfirmed Funds"
