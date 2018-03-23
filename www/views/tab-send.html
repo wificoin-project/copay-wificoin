@@ -37,7 +37,7 @@
           <span ng-show="hasWallets" translate>To get started, get wificoin or share your address. You can receive wificoin from any wallet or service.</span>
           <span ng-show="!hasWallets" translate>To get started, you'll need to create a wificoin wallet and get some wificoin.</span>
           <div class="padding">
-            <a class="button button-standard button-primary" href="https://talk.kunteng.org" target="_blank" ng-show="hasWallets" translate>Get Wificoin</a>
+            <a class="button button-standard button-primary" ng-click="openExternalLink('https://talk.kunteng.org')" ng-show="hasWallets" translate>Get Wificoin</a>
             <button class="button button-standard button-primary" ng-click="createWallet()" ng-show="!hasWallets" translate>Create wificoin wallet</button>
             <button class="button button-standard button-secondary" ui-sref="tabs.receive" ng-show="hasWallets" translate>Show wificoin address</button>
           </div>

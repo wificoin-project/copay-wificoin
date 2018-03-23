@@ -52,7 +52,7 @@
         ng-model="formData.derivationPath">
       </label>
 
-
+      <!--
       <ion-toggle ng-model="fromHardwareWallet.value" toggle-class="toggle-positive">
         <span class="toggle-label" translate>From Hardware Wallet</span>
       </ion-toggle>
@@ -63,6 +63,7 @@
         </div>
         <select class="m10t" ng-model="formData.seedSourceAll" ng-options="seed as seed.label for seed in seedOptionsAll"></select>
       </label>
+      -->
 
       <ion-toggle style="display:none" ng-model="formData.testnetEnabled" ng-change="setDerivationPath()" toggle-class="toggle-positive" ng-if="formData.coin == 'btc'">
         <span translate>Testnet</span>

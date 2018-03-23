@@ -17,12 +17,12 @@
         <i class="icon big-icon-svg">
           <img src="img/icon-help-support.svg" class="bg"/>
         </i>
-        <span>{{'Help & Support' | translate }}</span>
+        <span>{{'Community' | translate }}</span>
         <i class="icon big-icon-svg">
           <img src="img/icon-link.svg" class="bg just-a-hint"/>
         </i>
       </a>
-      <a ng-if="isCordova && !isWindowsPhoneApp" class="item item-icon-left item-icon-right" ui-sref="tabs.shareApp({score: 4, skipped: true, fromSettings: true})">
+      <a style="display:none" ng-if="isCordova && !isWindowsPhoneApp" class="item item-icon-left item-icon-right" ui-sref="tabs.shareApp({score: 4, skipped: true, fromSettings: true})">
         <i class="icon big-icon-svg">
           <img src="img/icon-heart.svg" class="bg"/>
         </i>
@@ -32,7 +32,7 @@
 
       <div class="item item-divider">{{'Preferences' | translate}}</div>
 
-      <a class="item item-icon-left item-icon-right" ui-sref="tabs.notifications">
+      <a style="display:none" class="item item-icon-left item-icon-right" ui-sref="tabs.notifications">
         <i class="icon big-icon-svg">
           <img src="img/icon-notifications.svg" class="bg"/>
         </i>

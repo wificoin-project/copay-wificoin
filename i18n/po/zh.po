@@ -24,7 +24,7 @@ msgstr "（重复支付）"
 
 #: www/views/modals/txp-details.html:159
 msgid "* A payment proposal can be deleted if 1) you are the creator, and no other copayer has signed, or 2) 24 hours have passed since the proposal was created."
-msgstr "* 如果 1) 你是创造者，及没有其他 copayer 签名，或 2) 24 小时已经过去，支付提议将被删除。"
+msgstr "* 如果 1) 你是创造者，及没有其他 copayer 签名，或 2) 24 小时已经过去，支付订单将被删除。"
 
 #: www/views/tx-details.html:82
 msgid "- {{btx.feeRateStr}} of the transaction"
@@ -140,7 +140,7 @@ msgstr "确定添加此BitPay账户:{{email}} 吗？"
 
 #: www/views/add.html:3
 msgid "Add wallet"
-msgstr "添加钱包"
+msgstr "创建钱包"
 
 #: www/views/addressbook.view.html:26
 #: www/views/customAmount.html:28
@@ -226,7 +226,7 @@ msgstr "金额太少，无法支付"
 
 #: src/js/controllers/tab-home.js:148
 msgid "An update to this app is available. For your security, please update to the latest version."
-msgstr "本程序有一个可用的更新。为了您的安全，请更新到最新版本。"
+msgstr "本程序有新版更新。为了您的安全，请更新到最新版本。"
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your wificoin."
@@ -234,11 +234,11 @@ msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你
 
 #: www/views/addresses.html:94
 msgid "Approximate Wificoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "转移余额大约需要的矿工费（正常优先级）"
+msgstr "转移余额大约需要的手续费（正常优先级）"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
-msgstr "你正在被监视吗？"
+msgstr "有人在监视你吗？"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your wificoin."
@@ -381,15 +381,15 @@ msgstr "热点币现金支付"
 
 #: www/views/onboarding/tour.html:31
 msgid "Wificoin is a currency."
-msgstr "热点币也是一种通用货币。"
+msgstr "热点币也会是一种通用货币"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Wificoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "热点币和其他货币不同 — — 它不能通过银行或者任何WEB服务安全的持有"
+msgstr "热点币和其他货币不同 — — 它不能通过银行或者任何网络服务来持有"
 
 #: www/views/onboarding/tour.html:18
 msgid "Wificoin is secure,<br>digital money."
-msgstr "热点币是安全的 <br>数字货币。"
+msgstr "热点币是一种安全的 <br>数字货币"
 
 #: www/views/preferencesFee.html:11
 msgid "Wificoin transactions include a fee collected by miners on the network."
@@ -722,7 +722,7 @@ msgstr "无法解密文件，请检查你的密码"
 
 #: src/js/controllers/modals/txpDetails.js:181
 msgid "Could not delete payment proposal"
-msgstr "无法删除支付提议"
+msgstr "无法删除支付订单"
 
 #: src/js/controllers/preferencesCash.js:117
 msgid "Could not duplicate"
@@ -804,7 +804,7 @@ msgstr "无法更新钱包"
 
 #: www/views/tab-create-personal.html:3
 msgid "Create Personal Wallet"
-msgstr "创建个人的钱包"
+msgstr "创建个人钱包"
 
 #: www/views/tab-create-shared.html:3
 msgid "Create Shared Wallet"
@@ -822,7 +822,7 @@ msgstr "创建新钱包"
 
 #: www/views/add.html:22
 msgid "Create shared wallet"
-msgstr "创建共享的钱包"
+msgstr "创建共享钱包"
 
 #: www/views/tab-create-shared.html:160
 msgid "Create {{formData.requiredCopayers}}-of-{{formData.totalCopayers}} wallet"
@@ -870,7 +870,7 @@ msgstr "删除"
 
 #: www/views/modals/txp-details.html:164
 msgid "Delete Payment Proposal"
-msgstr "删除支付提议"
+msgstr "删除支付订单"
 
 #: www/views/preferencesAdvanced.html:33
 #: www/views/preferencesDeleteWallet.html:3
@@ -1095,7 +1095,7 @@ msgstr "错误！"
 
 #: src/js/controllers/confirm.js:502
 msgid "Error at confirm"
-msgstr "在确认错误"
+msgstr "确认交易出错, 请重试"
 
 #: src/js/controllers/buyAmazon.js:179
 msgid "Error creating gift card"
@@ -1174,7 +1174,7 @@ msgstr "此钱包不支持通过二维码导出"
 #: www/views/preferencesInformation.html:104
 #: www/views/preferencesPrivateKey.html:6
 msgid "Extended Private Key"
-msgstr ""
+msgstr "扩展私钥"
 
 #: www/views/preferencesInformation.html:89
 msgid "Extended Public Keys"
@@ -1270,11 +1270,11 @@ msgstr "从硬件钱包"
 
 #: www/views/tab-export-qrCode.html:5
 msgid "From the destination device, go to Add wallet &gt; Import wallet and scan this QR code"
-msgstr "从目标设备中，转到添加钱包＆gt;导入钱包并扫描此二维码"
+msgstr "从目标设备中，转到创建钱包->导入钱包,然后扫描此二维码"
 
 #: src/js/services/bwcError.js:74
 msgid "Funds are locked by pending spend proposals"
-msgstr "资金被未确认的交易锁定"
+msgstr "资金已被未确认的交易锁定"
 
 #: www/views/paperWallet.html:16
 msgid "Funds found:"
@@ -1327,7 +1327,7 @@ msgstr "开始使用"
 
 #: www/views/addressbook.html:20
 msgid "Get started by adding your first one."
-msgstr "开始添加您的第一个。"
+msgstr ""
 
 #: src/js/services/onGoingProcess.js:23
 msgid "Getting fee levels..."
@@ -1402,15 +1402,18 @@ msgstr "热点币现金钱包暂时不支持硬件钱包"
 msgid "Help & Support"
 msgstr "帮助与支持"
 
+msgid "Community"
+msgstr "社区"
+
 #: src/js/controllers/bitpayCard.js:112
 #: src/js/controllers/modals/mercadoLibreCardDetails.js:25
 #: src/js/controllers/tab-settings.js:47
 msgid "Help and support information is available at the website."
-msgstr "已在网站上提供帮助和支持"
+msgstr "在社区网站上您可以得到帮助和支持"
 
 #: www/views/addresses.html:25
 msgid "Hide"
-msgstr "隱藏"
+msgstr "隐藏"
 
 #: www/views/preferences.html:27
 msgid "Hide Balance"
@@ -1450,7 +1453,7 @@ msgstr "我不喜欢"
 
 #: www/views/onboarding/disclaimer.html:43
 msgid "I have read, understood, and agree to the <a ng-click=\"openTerms()\" translate=\"\">Terms of Use</a>."
-msgstr "我已阅读、理解并同意 <a ng-click=\"openTerms()\"translate=\"\"> 使用条款</a>。"
+msgstr "我已阅读、理解并同意 <a ng-click=\"openTerms()\"translate=\"\"> 使用条款</a>"
 
 #: www/views/modals/terms.html:22
 msgid "I have read, understood, and agree with the Terms of use."
@@ -1481,7 +1484,7 @@ msgstr "我明白，如果这个应用程序被移动到另一个设备或删除
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
-msgstr "我明白，我的资金安全的存放在我的设备上，而不是由网站存放。"
+msgstr "我明白，我的资金安全的存放在我的设备上，而不是在服务端存放。"
 
 #: www/views/backup.html:36
 msgid "I've written it down"
@@ -1509,7 +1512,7 @@ msgstr "如果你有额外的反馈，请让我们知道通过点击设置选项
 
 #: www/views/includes/screenshotWarningModal.html:8
 msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
-msgstr "如果您截一张屏幕截图，您的备份可能会被其他应用程序浏览。您可以用实体纸和笔来安全地备份。"
+msgstr "如果您保存的是一张屏幕截图，您的备份可能会被其他应用程序浏览。您最好用纸和笔来安全地备份。"
 
 #: www/views/tab-import-hardware.html:42
 #: www/views/tab-import-phrase.html:80
@@ -1534,7 +1537,7 @@ msgstr "正在导入钱包..."
 
 #: www/views/backup.html:72
 msgid "In order to verify your wallet backup, please type your password."
-msgstr "为了验证您的钱包的备份，请键入您的密码。"
+msgstr "为了验证您钱包的备份，请键入您的密码。"
 
 #: www/views/mercadoLibreCards.html:24
 #: www/views/modals/mercadolibre-card-details.html:29
@@ -1576,7 +1579,7 @@ msgstr "资金不足"
 #: src/js/controllers/topup.js:177
 #: src/js/services/bwcError.js:71
 msgid "Insufficient funds for fee"
-msgstr "费用的资金不足"
+msgstr "资金费用不足"
 
 #: www/views/tab-settings.html:116
 msgid "Integrations"
@@ -1635,7 +1638,7 @@ msgstr "此电子邮件地址是正确的？"
 
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your wificoins secure against hypothetical attacks by quantum computers."
-msgstr "避免重复使用地址是一个不错的主意 - 这既保护您的隐私，也让热点币免受量子计算机的假想攻击"
+msgstr "避免重复使用地址是一个不错的办法 - 这既保护您的隐私，也让热点币免受量子计算机的假想攻击"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1647,7 +1650,7 @@ msgstr "加入"
 
 #: src/js/controllers/copayers.js:85
 msgid "Join my {{appName}} Wallet. Here is the invitation code: {{secret}} You can download {{appName}} for your phone or desktop at {{appUrl}}"
-msgstr "加入我的 {{appName}} 的钱包。这里是邀请码︰ {{secret}} 你可以下载为您的电话或桌面的 {{appUrl}} {{appName}}"
+msgstr "加入我的 {{appName}} 钱包。这里是邀请码︰ {{secret}} 你可以下载为您的电话或桌面的 {{appUrl}} {{appName}}"
 
 #: www/views/add.html:30
 #: www/views/join.html:5
@@ -1660,11 +1663,11 @@ msgstr "正在加入钱包..."
 
 #: www/views/onboarding/tour.html:22
 msgid "Just scan the code to pay."
-msgstr "只需扫一扫即可支付。"
+msgstr "只需扫一扫即可支付"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
-msgstr "钥已经关联现有的钱包"
+msgstr "秘钥已经关联现有的钱包"
 
 #: www/views/preferencesLanguage.html:4
 #: www/views/tab-settings.html:61
@@ -1684,7 +1687,7 @@ msgstr "了解更多"
 
 #: www/views/backup.html:43
 msgid "Let's verify your backup phrase."
-msgstr "让我们验证您备份的短语。"
+msgstr "现在验证一下您备份的短语。"
 
 #: www/views/addresses.html:45
 #: www/views/allAddresses.html:14
@@ -1713,11 +1716,11 @@ msgstr "锁定金额"
 
 #: src/js/services/bwcError.js:86
 msgid "Locktime in effect. Please wait to create a new spend proposal"
-msgstr "Locktime 在进行中。请稍等以创建新的花费提议"
+msgstr "操作太频繁。请稍后创建新的交易"
 
 #: src/js/services/bwcError.js:89
 msgid "Locktime in effect. Please wait to remove this spend proposal"
-msgstr "Locktime 在进行中。请稍等以删除花费提议"
+msgstr "操作太频繁。请稍后删除交易"
 
 #: www/views/includes/logOptions.html:3
 msgid "Log options"
@@ -1769,7 +1772,7 @@ msgstr "Mercadolibre 礼品卡服务暂时不可用，请稍后再试。"
 
 #: www/views/modals/txp-details.html:131
 msgid "Merchant Message"
-msgstr "商人的消息"
+msgstr "商家信息"
 
 #: www/views/buyAmazon.html:55
 #: www/views/buyMercadoLibre.html:54
@@ -1783,7 +1786,7 @@ msgstr "缺失参数"
 
 #: src/js/services/bwcError.js:32
 msgid "Missing private keys to sign"
-msgstr "遗失需要签名的私钥"
+msgstr "缺少签名的私钥"
 
 #: www/views/preferences.html:61
 #: www/views/preferencesAdvanced.html:3
@@ -1793,7 +1796,7 @@ msgstr "更多"
 #: www/views/includes/walletHistory.html:47
 #: www/views/tx-details.html:19
 msgid "Moved"
-msgstr "已调动"
+msgstr "已转移"
 
 #: src/js/controllers/tx-details.js:131
 msgid "Moved Funds"
@@ -1805,7 +1808,7 @@ msgstr "多个接收者"
 
 #: www/views/tab-import-phrase.html:8
 msgid "NOTE: To import a wallet from a 3rd party software, please go to Add Wallet &gt; Create Wallet, and specify the Recovery Phrase there."
-msgstr "注意︰欲从第三方软件导入钱包，请到添加钱包 &gt; 创建钱包，并指定恢复短语。"
+msgstr "注意︰若从第三方软件导入钱包，请到创建钱包 -> 创建个人钱包，并指定恢复短语。"
 
 #: www/views/addressbook.add.html:21
 #: www/views/addressbook.view.html:18
@@ -1826,7 +1829,7 @@ msgstr "网络错误"
 
 #: www/views/includes/walletActivity.html:43
 msgid "New Proposal"
-msgstr "新建议"
+msgstr "新订单"
 
 #: src/js/controllers/addresses.js:126
 msgid "New address could not be generated. Please try again."
@@ -1834,11 +1837,11 @@ msgstr "无法生成新的地址。请再试一次。"
 
 #: www/views/add.html:14
 msgid "New personal wallet"
-msgstr "新的个人钱包"
+msgstr "创建个人钱包"
 
 #: www/views/includes/nextSteps.html:3
 msgid "Next steps"
-msgstr "接下来的步骤"
+msgstr "下一步"
 
 #: www/views/tab-receive.html:16
 msgid "No Wallet"
@@ -1851,7 +1854,7 @@ msgstr "授权密钥未定义"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no wificoin."
-msgstr "没备份，就没有热点币!"
+msgstr "不备份! 热点币就没了!"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1859,7 +1862,7 @@ msgstr "联系人为空"
 
 #: www/views/preferencesLogs.html:16
 msgid "No entries for this log level"
-msgstr "没有为此日志级别的的条目"
+msgstr "没有这个日志级别的条目"
 
 #: www/views/preferencesExternal.html:12
 msgid "No hardware information available."
@@ -1871,7 +1874,7 @@ msgstr "此设备不支持硬件钱包"
 
 #: www/views/proposals.html:24
 msgid "No pending proposals"
-msgstr "没有挂起的建议"
+msgstr "没有挂起的订单"
 
 #: www/views/activity.html:25
 msgid "No recent transactions"
@@ -1880,7 +1883,7 @@ msgstr "没有最近的交易"
 #: src/js/controllers/buyAmazon.js:44
 #: src/js/controllers/topup.js:47
 msgid "No signing proposal: No private key"
-msgstr "没有签名的建议： 没有私钥"
+msgstr "没有签名订单：没有私钥"
 
 #: www/views/walletDetails.html:204
 msgid "No transactions yet"
@@ -1928,11 +1931,11 @@ msgstr "尚未授权"
 
 #: src/js/controllers/confirm.js:307
 msgid "Not enough funds for fee"
-msgstr "没有足够的资金支付矿工费"
+msgstr "没有足够的资金支付手续费"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
-msgstr "即使我们也无法访问它。"
+msgid "Not even us can access it."
+msgstr "即使我们也无法访问它"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -1974,11 +1977,11 @@ msgstr "交易确认完毕时通知我"
 
 #: www/views/includes/backupNeededPopup.html:8
 msgid "Now is a good time to backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
-msgstr "现在是备份钱包的好时机。如果此设备丢失，则无法在没有备份的情况下访问您的资金。"
+msgstr "现在开始备份钱包吧。如果当前设备丢失，将无法在没有备份的情况下访问您的资金。"
 
 #: www/views/backupWarning.html:11
 msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
-msgstr "现在是评估你周围环境的最佳时机。附近的窗户? 隐藏的相机? 身后的间谍?"
+msgstr "现在先评估下你周围的环境。附近有没有窗户? 隐藏的摄像头? 身边有没有人?"
 
 #: src/js/controllers/buyAmazon.js:314
 #: src/js/controllers/topup.js:286
@@ -2004,7 +2007,7 @@ msgstr "官方英文免责声明"
 
 #: src/js/controllers/feedback/send.js:64
 msgid "Oh no!"
-msgstr "出错。"
+msgstr "出错啦!"
 
 #: src/js/controllers/buyMercadoLibre.js:308
 msgid "Ok"
@@ -2012,7 +2015,7 @@ msgstr "还行"
 
 #: www/views/tab-home.html:53
 msgid "On this screen you can see all your wallets, accounts, and assets."
-msgstr "在此屏幕上您可以看到您的钱包、 帐户和资产。"
+msgstr "在这里可以看到您的钱包帐户和资产"
 
 #: src/js/controllers/bitpayCard.js:113
 #: src/js/controllers/modals/mercadoLibreCardDetails.js:26
@@ -2110,15 +2113,15 @@ msgstr "付款到期︰"
 
 #: www/views/modals/txp-details.html:6
 msgid "Payment Proposal"
-msgstr "支付提议"
+msgstr "支付订单"
 
 #: www/views/modals/tx-status.html:21
 msgid "Payment Proposal Created"
-msgstr "支付提议已创建"
+msgstr "支付订单已创建"
 
 #: www/views/tab-home.html:60
 msgid "Payment Proposals"
-msgstr "支付提议"
+msgstr "支付订单"
 
 #: src/js/services/payproService.js:32
 msgid "Payment Protocol Invalid"
@@ -2171,7 +2174,7 @@ msgstr "处理中"
 
 #: www/views/proposals.html:4
 msgid "Pending Proposals"
-msgstr "支付提议"
+msgstr "支付订单"
 
 #: www/views/preferencesDeleteWallet.html:13
 msgid "Permanently delete this wallet."
@@ -2257,25 +2260,25 @@ msgstr "私钥已加密，无法签名"
 
 #: www/views/includes/walletActivity.html:51
 msgid "Proposal Accepted"
-msgstr "提案被接受"
+msgstr "订单被接受"
 
 #: src/js/controllers/modals/txpDetails.js:61
 #: src/js/controllers/tx-details.js:78
 #: www/views/confirm.html:125
 msgid "Proposal Created"
-msgstr "建议创建"
+msgstr "订单创建"
 
 #: www/views/includes/walletActivity.html:27
 msgid "Proposal Deleted"
-msgstr "建议删除"
+msgstr "订单删除"
 
 #: www/views/includes/walletActivity.html:35
 msgid "Proposal Rejected"
-msgstr "被拒绝的建议"
+msgstr "订单被拒绝"
 
 #: www/views/walletDetails.html:189
 msgid "Proposals"
-msgstr "建议"
+msgstr "订单"
 
 #: src/js/controllers/buyAmazon.js:284
 msgid "Purchase Amount is limited to {{limitPerDay}} {{currency}} per day"
@@ -2299,7 +2302,7 @@ msgstr "二维码"
 
 #: www/views/onboarding/disclaimer.html:13
 msgid "Quick review!"
-msgstr "快速审查 ！"
+msgstr "再来回顾一下"
 
 #: src/js/controllers/create.js:82
 #: src/js/controllers/join.js:67
@@ -2357,7 +2360,7 @@ msgstr "最近"
 
 #: www/views/advancedSettings.html:21
 msgid "Recent Transaction Card"
-msgstr "最近交易选项卡"
+msgstr "显示最近交易"
 
 #: www/views/activity.html:4
 #: www/views/tab-home.html:72
@@ -2379,7 +2382,7 @@ msgstr "恢复短语"
 
 #: src/js/services/onGoingProcess.js:26
 msgid "Recreating Wallet..."
-msgstr "正在重新创建的钱包..."
+msgstr "正在重新创建钱包..."
 
 #: www/views/modals/mercadolibre-card-details.html:22
 msgid "Redeem now"
@@ -2435,7 +2438,7 @@ msgstr "请求指纹"
 
 #: www/views/tab-receive.html:45
 msgid "Request Specific amount"
-msgstr "设置指定金额"
+msgstr "指定金额收款"
 
 #: www/views/preferences.html:42
 msgid "Request Spending Password"
@@ -2496,11 +2499,11 @@ msgstr "正在扫描钱包资金..."
 
 #: www/views/includes/walletList.html:11
 msgid "Scanning funds..."
-msgstr "扫描資金中....."
+msgstr "正在扫描资金....."
 
 #: www/views/includes/screenshotWarningModal.html:7
 msgid "Screenshots are not secure"
-msgstr "截图是不安全的"
+msgstr "保存截图是非常不安全的"
 
 #: www/views/modals/search.html:6
 msgid "Search Transactions"
@@ -2556,7 +2559,7 @@ msgstr "发送反馈"
 
 #: www/views/addressbook.view.html:31
 msgid "Send Money"
-msgstr "寄钱"
+msgstr "转账"
 
 #: www/views/allAddresses.html:19
 msgid "Send addresses by email"
@@ -2619,7 +2622,7 @@ msgstr "已发送"
 
 #: src/js/controllers/tx-details.js:129
 msgid "Sent Funds"
-msgstr "已发送的资金"
+msgstr "已发送资金"
 
 #: src/js/services/bwcError.js:38
 msgid "Server response could not be verified"
@@ -2671,7 +2674,7 @@ msgstr "分享 {{appName}}"
 
 #: www/views/tab-import-hardware.html:24
 msgid "Shared Wallet"
-msgstr "共享的钱包"
+msgstr "共享钱包"
 
 #: www/views/preferencesExternal.html:34
 msgid "Show Recovery Phrase"
@@ -2737,7 +2740,7 @@ msgstr "在此点击扫描以付款"
 #: src/js/controllers/confirm.js:377
 #: src/js/controllers/modals/txpDetails.js:40
 msgid "Slide to send"
-msgstr "在此点击滑動以發送"
+msgstr "滑动发送"
 
 #: www/views/preferencesCash.html:56
 msgid "Some of your wallets are not eligible for Wificoin Cash support. You can try to access BCH funds from these wallets using the"
@@ -2750,11 +2753,11 @@ msgstr "指定恢复短语......"
 
 #: src/js/services/bwcError.js:92
 msgid "Spend proposal is not accepted"
-msgstr "花费提议不被接受"
+msgstr "支付订单未接受"
 
 #: src/js/services/bwcError.js:95
 msgid "Spend proposal not found"
-msgstr "找不到花费提议"
+msgstr "找不到改支付订单"
 
 #: src/js/services/bwcError.js:137
 msgid "Spending Password needed"
@@ -2864,7 +2867,7 @@ msgstr "可以直接消费的金额"
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of wificoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "存储在此钱包中的作为未决交易提议的输入分配的金额。该金额使用由该钱包相关联的未使用的交易输出来确定，并且可能大于与未决交易提议相关联的实际金额"
+msgstr "存储在此钱包中未完成订单中的金额。该金额使用由该钱包相关联的未使用的交易输出来确定，并且可能大于与未完成订单相关联的实际金额"
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of wificoin stored in this wallet with less than 1 blockchain confirmation."
@@ -2876,7 +2879,7 @@ msgstr "衍生路径"
 
 #: www/views/onboarding/tour.html:37
 msgid "The exchange rate changes with the market."
-msgstr "汇率随市场而变化。"
+msgstr "汇率是我们想象出来的"
 
 #: www/views/preferencesFee.html:12
 msgid "The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
@@ -2919,7 +2922,7 @@ msgstr "如果在不包含资金的行中生成20个地址，则还原过程将�
 
 #: src/js/services/bwcError.js:98
 msgid "The spend proposal is not pending"
-msgstr "花费提议不是未决"
+msgstr "支付订单未处理"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of wificoin stored in this wallet."
@@ -2927,7 +2930,7 @@ msgstr "该钱包中存储的热点币总量。"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
-msgstr "交易历史记录和每个新的传入交易都缓存在应用程序中。此功会进行清理并再次与服务器同步"
+msgstr "历史交易记录和每笔新的交易都缓存在应用程序中。清理后会再次与服务器同步。"
 
 #: www/views/tab-import-phrase.html:6
 msgid "The wallet service URL"
@@ -2935,7 +2938,7 @@ msgstr "钱包服务 URL"
 
 #: src/js/controllers/tab-home.js:39
 msgid "There is a new version of {{appName}} available"
-msgstr "有可用的新版本的 {{appName}}"
+msgstr "发现新版本的 {{appName}}"
 
 #: src/js/controllers/import.js:227
 #: src/js/controllers/import.js:252
@@ -2954,11 +2957,11 @@ msgstr "这个应用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your wificoin with cutting-edge security."
-msgstr "这个应用程序能够安全的存储你的热点币。"
+msgstr "这个应用程序能够安全的存储你的热点币"
 
 #: src/js/controllers/confirm.js:523
 msgid "This wificoin payment request has expired."
-msgstr "这热点币付款请求已过期。"
+msgstr "此付款请求已过期。"
 
 #: www/views/join.html:133
 #: www/views/tab-create-personal.html:103
@@ -2968,11 +2971,11 @@ msgstr "此密码无法恢复。如果密码丢失，您无法恢复您的资金
 
 #: www/views/backup.html:31
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
-msgstr "此恢复短语是使用密码创建的。要恢复这个钱包，恢复短语和密码都是必需的。"
+msgstr "此恢复短语是使用密码创建的。要恢复这个钱包，必需输入恢复短语和密码。"
 
 #: www/views/tx-details.html:91
 msgid "This transaction amount is too small compared to current Wificoin network fees. Spending these funds will need a Wificoin network fee cost comparable to the funds itself."
-msgstr "相对于当前矿工费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
+msgstr "相对于当前手续费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:87
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
@@ -3026,7 +3029,7 @@ msgstr "总计"
 
 #: www/views/walletDetails.html:196
 msgid "Total Locked Balance"
-msgstr "锁定结余的总额"
+msgstr "总锁定余额"
 
 #: www/views/tab-create-shared.html:35
 msgid "Total number of copayers"
@@ -3127,11 +3130,11 @@ msgstr "可用的更新"
 
 #: www/views/proposals.html:14
 msgid "Updating pending proposals. Please stand by"
-msgstr "正在更新挂起的建议。请袖手旁观"
+msgstr "更新未完成订单。请等待"
 
 #: www/views/walletDetails.html:217
 msgid "Updating transaction history. Please stand by."
-msgstr "更新交易历史记录。请等待。"
+msgstr "正在更新交易记录, 请耐心等待。"
 
 #: www/views/activity.html:14
 msgid "Updating... Please stand by"
@@ -3151,7 +3154,7 @@ msgstr "正在验证恢复短语。。。"
 
 #: www/views/modals/fingerprintCheck.html:4
 msgid "Verify your identity"
-msgstr "验证您的身份"
+msgstr "验证身份"
 
 #: www/views/preferencesAbout.html:14
 #: www/views/preferencesExternal.html:25
@@ -3193,19 +3196,20 @@ msgstr "警告︰此设备/钱包无法运行钥匙衍生。无法在此钱包�
 
 #: www/views/tab-export-file.html:45
 msgid "WARNING: Not including the private key allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
-msgstr "警告︰不包括私钥，以检查钱包余额、交易历史记录，及从导出创建开销提议。可是，不允许批准（签名）提议，因此 <b>资金将无法从导出访问</b>。"
+msgstr "警告：不包括私钥允许检查钱包余额，交易历史记录，并从导出中创建支出订单。但是不允许批准（签名）订单，因此 <b>资金将无法从导出访问</b>。"
 
 #: www/views/tab-export-file.html:36
 msgid "WARNING: The private key of this wallet is not available. The export allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
-msgstr "警告︰此钱包没有可用的私钥。导出可以检查钱包余额、交易历史记录，及从导出创建开销提议。可是，不允许批准（签名）提议，因此 <b>资金将无法从导出访问</b>。"
+msgstr "警告：此钱包的私钥不可用。导出中允许检查钱包余额，交易历史记录，并从导出中创建支出订单。但是不允许批准（签名）订单，因此 <b>资金将无法从导出访问</b>。"
 
 #: www/views/modals/paypro.html:42
 msgid "WARNING: UNTRUSTED CERTIFICATE"
 msgstr "警告︰不受信任的证书"
 
 #: www/views/preferencesPrivateKey.html:14
-msgid "WARNING: Your extended private keys are all that is needed to access your wificoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
-msgstr ""
+msgid "WARNING: Your extended private keys are all that is needed to access your wificoin funds. Be sure to protect your private keys and store them only on secure devices. Anyone does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgstr "
+警告：您的扩展私钥能访问您全部的wificoin资金。务必保护好您的私钥并将其仅存储在安全设备上。 任何人无权访问您的私钥，因此只有您能对自己的私钥负责。如果您与外部服务共享密钥访问权限，您将承担被盗或风险违规的责任。只有高级用户才能直接处理扩展私钥。"
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
@@ -3339,7 +3343,7 @@ msgstr "钱包未备份"
 #: www/views/tab-receive.html:59
 #: www/views/walletDetails.html:169
 msgid "Wallet not backed up"
-msgstr "未备份的钱包"
+msgstr "钱包未备份"
 
 #: src/js/services/bwcError.js:68
 msgid "Wallet not found"
@@ -3414,7 +3418,7 @@ msgstr "你怎么称呼这个钱包？"
 
 #: www/views/preferencesAlias.html:12
 msgid "When this wallet was created, it was called &ldquo;{{walletName}}&rdquo;. You can change the name displayed on this device below."
-msgstr "这个钱包在开始创建时，默认为\"{{walletName}}\"。您可以在下面更改该设备上显示的名称。"
+msgstr "这个钱包在创建时，名称为\"{{walletName}}\"。您可以在下面更改在该设备上显示的名称。"
 
 #: www/views/onboarding/collectEmail.html:10
 msgid "Where would you like to receive email notifications about payments?"
@@ -3452,7 +3456,7 @@ msgstr "确定"
 
 #: src/js/controllers/onboarding/backupRequest.js:24
 msgid "You can create a backup later from your wallet settings."
-msgstr "您稍后可以从钱包设置中创建备份。"
+msgstr "您稍后也可以从钱包设置中创建备份。"
 
 #: src/js/controllers/preferencesLanguage.js:12
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
@@ -3468,7 +3472,7 @@ msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程
 
 #: www/views/onboarding/tour.html:19
 msgid "You can spend wificoin at millions of websites and stores worldwide."
-msgstr "您将可以在全宇宙数百亿个网站和商店中使用热点币。"
+msgstr "您将可以在全宇宙数百亿个网站和商店中使用热点币"
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3476,15 +3480,15 @@ msgstr "你仍然可以将其从高级中导出 &gt; 导出。"
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英镑。"
+msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英镑, 如果也人愿意换的话 :)"
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your wificoin."
-msgstr "热点币只能你自己管理"
+msgstr "热点币只有你自己管理"
 
 #: www/views/modals/chooseFeeLevel.html:64
-msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
-msgstr "你不应设置高于 {{maxFeeRecommended}} satoshis/字节 的交易手续费。"
+msgid "You should not set a fee higher than {{maxFeeRecommended}} feng/byte."
+msgstr "你不应设置高于 {{maxFeeRecommended}} feng/字节 的手续费。"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3505,15 +3509,15 @@ msgstr "礼品卡"
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your wificoin wallet is backed up!"
-msgstr "你的钱包已经备份 ！"
+msgstr "你的钱包已备份 ！"
 
 #: www/views/tab-home.html:50
 msgid "Your wificoin wallet is ready!"
-msgstr "你的热点币钱包已经准备好了 ！"
+msgstr "您的热点币钱包已经准备好了 ！"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
-msgstr "交易手续费低于建议量。"
+msgstr "交易手续费低于建议值。"
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
@@ -3601,7 +3605,7 @@ msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)�
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for wificoin networking fees."
-msgstr "{{fee}} 将扣除相关的矿工费用。"
+msgstr "{{fee}} 将扣除相关的手续费。"
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
@@ -3609,11 +3613,11 @@ msgstr "发送量 {{tx.txp[wallet.id].feeRatePerStr}}"
 
 #: www/views/confirm.html:85
 msgid "Wificoin miner fee:"
-msgstr "矿工费"
+msgstr "矿工手续费"
 
 #: www/views/walletDetails.html:218
 msgid "{{updatingTxHistoryProgress}} transactions downloaded"
-msgstr "下载的 {{updatingTxHistoryProgress}} 交易"
+msgstr "已下载 {{updatingTxHistoryProgress}} 交易"
 
 #: www/views/copayers.html:46
 #: www/views/includes/walletInfo.html:18
@@ -3627,7 +3631,7 @@ msgstr "你想用密码保护这个钱包吗？"
 
 #: src/js/services/profileService.js:534
 msgid "Encryption can protect your funds if this device is stolen or compromised by malicious software."
-msgstr "如果此设备被盗取或被恶意软件破坏，加密可以保护您的资金。"
+msgstr "如果此设备被盗或被恶意软件破坏，密码可以保护您的资金。"
 
 #: src/js/services/profileService.js:557
 msgid "Enter your password again to confirm"

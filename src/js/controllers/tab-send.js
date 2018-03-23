@@ -250,4 +250,8 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
       updateList();
     });
   });
+
+ $scope.openExternalLink = function(url) {
+   externalLinkService.open(url);
+  };
 });
