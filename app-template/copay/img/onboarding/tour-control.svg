@@ -1,47 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="247px" height="247px" viewBox="0 0 247 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>tour-control</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="89.4673583%" id="linearGradient-1">
-            <stop stop-color="#192C3A" offset="0%"></stop>
-            <stop stop-color="#192C3A" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="tour-control">
-            <g id="Onboarding">
-                <g id="0.2.3---Tour-3">
-                    <g id="bg-3">
-                        <path d="M123.5,247 C191.707167,247 247,191.707167 247,123.5 C247,55.2928334 191.707167,1.42108547e-14 123.5,1.42108547e-14 C55.2928334,1.42108547e-14 1.42108547e-14,55.2928334 1.42108547e-14,123.5 C1.42108547e-14,191.707167 55.2928334,247 123.5,247 Z" id="Oval-2" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.300000012"></path>
-                        <rect id="Combined-Shape" stroke="#707D89" stroke-width="2" fill-opacity="0.65" fill="#192C3A" fill-rule="nonzero" x="63" y="24" width="99.8310062" height="183.875349" rx="8"></rect>
-                        <path d="M63.5199532,180.634556 L162.311053,180.634556" id="Line" stroke="#707D89" stroke-width="2" stroke-linecap="square"></path>
-                        <path d="M104.076299,194.254952 L122.794613,194.254952" id="Line" stroke="#707D89" stroke-width="2" stroke-linecap="square"></path>
-                        <g id="Group-4" transform="translate(98.000000, 79.000000)" stroke="#FFFFFF">
-                            <g id="top-up">
-                                <g id="shopping-48px-outline_bitcoin" transform="translate(0.666667, 0.180606)">
-                                    <g id="Group" transform="translate(0.619048, 0.627502)">
-                                        <path d="M12.3809524,0 L12.3809524,7.5300202" id="Shape"></path>
-                                        <path d="M17.3333333,0 L17.3333333,7.5300202" id="Shape"></path>
-                                        <path d="M12.3809524,47.6901279 L12.3809524,55.2201481" id="Shape"></path>
-                                        <path d="M17.3333333,47.6901279 L17.3333333,55.2201481" id="Shape"></path>
-                                        <path d="M0,47.6901279 L7.42857143,47.6901279" id="Shape-Copy"></path>
-                                        <path d="M0,7.5300202 L7.42857143,7.5300202" id="Shape-Copy-2"></path>
-                                        <path d="M7.42857143,25.1000673 L7.42857143,7.5300202 L21.8042328,7.5300202 C26.9010582,7.5300202 30.952381,11.4205306 30.952381,16.3150438 C30.952381,21.2095569 26.9010582,25.1000673 21.8042328,25.1000673" id="Shape"></path>
-                                        <path d="M7.42857143,47.6901279 L7.42857143,25.1000673 L23.6785714,25.1000673 C29.0952381,25.1000673 33.4285714,30.1200808 33.4285714,36.3950976 C33.4285714,42.6701145 29.0952381,47.6901279 23.6785714,47.6901279 L7.42857143,47.6901279 Z" id="Shape"></path>
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                        <g id="Group-3" transform="translate(125.000000, 122.000000)" stroke="#12E5B6" stroke-width="2">
-                            <rect id="Rectangle-path" fill="#192C3A" fill-rule="nonzero" x="0.00547760651" y="37.6483369" width="74.7600358" height="65.7214967" rx="4"></rect>
-                            <path d="M18.6954866,37.6483369 L18.6954866,18.8707664 C18.6954866,8.54310266 27.1059906,0.0931959432 37.3854955,0.0931959432 L37.3854955,0.0931959432 C47.6650004,0.0931959432 56.0755044,8.54310266 56.0755044,18.8707664 L56.0755044,37.6483369" id="Shape"></path>
-                            <path d="M36.6300769,65.8146926 L36.6300769,75.2034779" id="Shape" fill="#F9F9F9" fill-rule="nonzero"></path>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
+<svg width="247" height="247" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+ <title>tour-control</title>
+ <desc>Created with Sketch.</desc>
+ <defs>
+  <linearGradient id="linearGradient-1" y2="89.4673583%" x2="50%" y1="0%" x1="50%">
+   <stop offset="0%" stop-color="#192C3A"/>
+   <stop offset="100%" stop-color="#192C3A"/>
+  </linearGradient>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-1">
+   <g id="tour-control">
+    <g id="Onboarding">
+     <g id="0.2.3---Tour-3">
+      <g id="bg-3">
+       <path opacity="0.3" fill-rule="nonzero" fill="url(#linearGradient-1)" id="Oval-2" d="m123.5,247c68.20717,0 123.5,-55.29283 123.5,-123.5c0,-68.20717 -55.29283,-123.5 -123.5,-123.5c-68.20717,0 -123.5,55.29283 -123.5,123.5c0,68.20717 55.29283,123.5 123.5,123.5z"/>
+       <rect rx="8" height="183.875349" width="99.831006" y="24" x="63" fill-rule="nonzero" fill="#192C3A" fill-opacity="0.65" stroke-width="2" stroke="#707D89" id="Combined-Shape"/>
+       <path stroke-linecap="square" stroke-width="2" stroke="#707D89" id="Line" d="m63.51995,180.63456l98.7911,0"/>
+       <path stroke-linecap="square" stroke-width="2" stroke="#707D89" id="Line" d="m104.0763,194.25495l18.71831,0"/>
+       <g stroke-width="2" stroke="#12E5B6" id="Group-3">
+        <rect rx="4" height="65.721497" width="74.760036" y="159.648337" x="125.005478" fill-rule="nonzero" fill="#192C3A" id="Rectangle-path"/>
+        <path id="Shape" d="m143.69549,159.64834l0,-18.77757c0,-10.32767 8.4105,-18.77757 18.69001,-18.77757l0,0c10.2795,0 18.69,8.4499 18.69,18.77757l0,18.77757"/>
+        <path fill-rule="nonzero" fill="#F9F9F9" id="Shape" d="m161.63008,187.81469l0,9.38879"/>
+       </g>
+      </g>
+     </g>
     </g>
+   </g>
+  </g>
+  <path stroke="#e5e5e5" filter="url(#svg_2_blur)" opacity="0.7" id="svg_2" d="m99.39281,103.37558c3.495564,0 6.782167,1.372763 9.251094,3.863104c2.474605,2.49148 3.835127,5.811175 3.835127,9.343904l5.388711,0c0,-10.262117 -8.289189,-18.609202 -18.476068,-18.609202l0,5.402194l0.001136,0zm0.006814,-9.578584c12.461608,0 22.597381,10.224523 22.597381,22.791288l5.38644,0c0,-15.545832 -12.553596,-28.194621 -27.984957,-28.194621l0,5.403333l0.001136,0zm7.449936,19.014765c0,2.067689 -1.670557,3.744625 -3.730646,3.744625s-3.730646,-1.676936 -3.730646,-3.744625c0,-2.065411 1.670557,-3.742346 3.730646,-3.742346s3.730646,1.675796 3.730646,3.742346z" fill="none"/>
+ </g>
 </svg>

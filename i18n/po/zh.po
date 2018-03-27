@@ -36,7 +36,7 @@ msgstr "-{{tx.feeRateStr}} 的交易记录"
 
 #: www/views/feedback/rateApp.html:7
 msgid "5-star ratings help us get {{appName}} into more hands, and more users means more resources can be committed to the app!"
-msgstr "5 星评级帮助我们进入更多的人手, {{appName}} 和更多的用户意味着的的资源可以致力于应用!"
+msgstr "五星级评分有助于我们更好地掌握{{appName}}，更多用户意味着可以将更多资源投入到应用程序中！"
 
 #: www/views/mercadoLibre.html:18
 #: www/views/mercadoLibre.html:40
@@ -179,7 +179,7 @@ msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your wificoin wallet balance may not be available for immediate spending."
-msgstr "您的所有热点币的钱包余额可能无法用于直接支出。"
+msgstr "您可能无法立即支出所有的钱包余额"
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before wificoin addresses can be created."
@@ -242,7 +242,7 @@ msgstr "有人在监视你吗？"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your wificoin."
-msgstr "请确认目前没有人在监视你的屏幕！因为只要有人知道了你的恢复短语，他就拥有你的热点币完全访问权限，甚至可以直接用于消费！"
+msgstr "请确认当前没有人在监视你的屏幕！因为只要有人知道了你的恢复短语，他就拥有你的热点币完全访问权限，甚至可以直接用于消费！"
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -590,7 +590,7 @@ msgstr "确认"
 #: www/views/bitpayCard.html:68
 #: www/views/modals/wallet-balance.html:61
 msgid "Confirming"
-msgstr "确认"
+msgstr "待确认"
 
 #: www/views/bitpayCardIntro.html:37
 msgid "Connect my BitPay Card"
@@ -977,7 +977,7 @@ msgstr "启用推式通知"
 
 #: www/views/tab-scan.html:18
 msgid "Enable the camera to get started."
-msgstr "使该摄像机开始。"
+msgstr "启用相机"
 
 #: src/js/services/walletService.js:1077
 #: src/js/services/walletService.js:1092
@@ -1248,7 +1248,7 @@ msgstr "完成"
 #: www/views/tab-create-personal.html:123
 #: www/views/tab-create-shared.html:152
 msgid "For audit purposes"
-msgstr "供审计目的"
+msgstr "审计目的"
 
 #: src/js/controllers/topup.js:308
 #: www/views/buyAmazon.html:29
@@ -1667,7 +1667,7 @@ msgstr "只需扫一扫即可支付"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
-msgstr "秘钥已经关联现有的钱包"
+msgstr "该私钥已经关联现有的钱包"
 
 #: www/views/preferencesLanguage.html:4
 #: www/views/tab-settings.html:61
@@ -2153,7 +2153,7 @@ msgstr "支付已被接受，但尚未广播"
 
 #: www/views/modals/txp-details.html:40
 msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a problem, it can be deleted 6 hours after it was created."
-msgstr "支付以被接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
+msgstr "支付以已接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
 
 #: src/js/services/incomingData.js:152
 msgid "Payment address was translated to new Wificoin Cash address format:"
@@ -2867,7 +2867,7 @@ msgstr "可以直接消费的金额"
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of wificoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "存储在此钱包中未完成订单中的金额。该金额使用由该钱包相关联的未使用的交易输出来确定，并且可能大于与未完成订单相关联的实际金额"
+msgstr "存储在此钱包中未完成订单中的金额。该金额由该钱包相关联的未完成交易的输出来确定，并且可能大于与未完成订单相关联的实际金额"
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of wificoin stored in this wallet with less than 1 blockchain confirmation."
@@ -3309,7 +3309,7 @@ msgstr "钱包已存在"
 
 #: src/js/services/profileService.js:516
 msgid "Wallet already in {{appName}}"
-msgstr "已经在 {{appName}} 的钱包"
+msgstr "已存在的 {{appName}} 钱包"
 
 #: www/views/includes/walletActivity.html:6
 msgid "Wallet created"
@@ -3480,7 +3480,7 @@ msgstr "你仍然可以将其从高级中导出 &gt; 导出。"
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英镑, 如果也人愿意换的话 :)"
+msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英镑, 如果有人愿意换的话 :)"
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your wificoin."
