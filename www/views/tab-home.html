@@ -55,6 +55,22 @@
       </div>
     </div>
 
+    <div class="list card">
+      <div class="item item-icon-right item-heading">
+        <span translate>Talkblock community</span>
+      </div>
+      <a ng-click="openExternalLink('https://talkblock.org')" class="item item-sub item-icon-left item-big-icon-left">
+        <i class="icon big-icon-svg">
+          <img src="img/icon-talkblock.svg" class="bg"/>
+        </i>
+        <span translate>Talkblock</span>
+        <p>
+	<span class="ng-binding" translate>Blockchian BBS</span>
+        &nbsp;
+        </p>
+      </a>
+    </div>
+
     <div class="list card" ng-hide="!txps[0]">
       <a class="item item-icon-right item-heading" ui-sref="tabs.proposals">
         {{'Payment Proposals'|translate}}

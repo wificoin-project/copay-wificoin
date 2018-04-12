@@ -43,6 +43,10 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         });
       }
 
+    $scope.openExternalLink = function(url) {
+      externalLinkService.open(url);
+    };
+
       storageService.getFeedbackInfo(function(error, info) {
 
         if ($scope.isWindowsPhoneApp) {

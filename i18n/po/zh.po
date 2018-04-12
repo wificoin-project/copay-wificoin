@@ -64,7 +64,7 @@ msgstr "关于"
 #: src/js/controllers/modals/txpDetails.js:62
 #: src/js/controllers/tx-details.js:79
 msgid "Accepted"
-msgstr "同意"
+msgstr "接受"
 
 #: www/views/preferencesInformation.html:72
 msgid "Account"
@@ -2015,7 +2015,7 @@ msgstr "还行"
 
 #: www/views/tab-home.html:53
 msgid "On this screen you can see all your wallets, accounts, and assets."
-msgstr "在这里可以看到您的钱包帐户和资产"
+msgstr "这里可以看到您的帐户和资产"
 
 #: src/js/controllers/bitpayCard.js:113
 #: src/js/controllers/modals/mercadoLibreCardDetails.js:26
@@ -2812,19 +2812,19 @@ msgstr " "
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
 msgid "Tap and hold to show"
-msgstr "点击并按住以显示"
+msgstr "点击并按住显示"
 
 #: www/views/includes/walletInfo.html:3
 msgid "Tap to recreate"
-msgstr "点击此以重新创建"
+msgstr "点击重新创建"
 
 #: www/views/includes/walletInfo.html:4
 msgid "Tap to retry"
-msgstr "点击以重试"
+msgstr "点击重试"
 
 #: www/views/termsOfUse.html:3
 msgid "Terms Of Use"
-msgstr "使用条件"
+msgstr "使用条款"
 
 #: www/views/modals/terms.html:3
 #: www/views/onboarding/disclaimer.html:29
@@ -2855,7 +2855,7 @@ msgstr "谢谢你 ！"
 
 #: src/js/controllers/feedback/send.js:73
 msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
-msgstr "这是令人兴奋的听到。我们愿意赚五明星从你 — — 我们如何可以改善您的体验吗？"
+msgstr "听到这个消息真令人兴奋。我们很乐意从你那得到五颗星 — — 我们怎样才能提高你的体验呢？"
 
 #: src/js/services/ledger.js:152
 msgid "The Ledger Chrome application is not installed"
@@ -2866,12 +2866,12 @@ msgid "The amount of wificoin immediately spendable from this wallet."
 msgstr "可以直接消费的金额"
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of wificoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "存储在此钱包中未完成订单中的金额。该金额由该钱包相关联的未完成交易的输出来确定，并且可能大于与未完成订单相关联的实际金额"
+msgid "The amount of wificoin stored in this wallet that is allocated as inputs to your pending transaction proposals. or immature balance."
+msgstr "存储在此钱包中未完成订单中的资金或挖矿产生的未成熟资金"
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of wificoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "此金额少于1个区块确认。"
+msgstr "该部分金额少于1个区块确认。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2887,7 +2887,7 @@ msgstr "费用越高、 矿工将该交易包括在区块内的机率就越大�
 
 #: www/views/addresses.html:51
 msgid "The maximum number of consecutive unused addresses (20) has been reached. When one of your unused addresses receives a payment, a new address will be generated and shown in your Receive tab."
-msgstr "已达到连续未使用地址（20）的最大数量。当其中一个未使用的地址收到付款时，将会生成一个新地址并显示在您的接收标签中。"
+msgstr "连续未使用地址已达到（20）最大数量。当其中一个未使用的地址收到付款时，将会生成一个新地址并显示在您的接收标签中。"
 
 #: src/js/controllers/onboarding/terms.js:21
 msgid "The official English Terms of Service are available on the BitPay website."
@@ -2918,7 +2918,7 @@ msgstr "服务器不理解此请求"
 
 #: www/views/addresses.html:52
 msgid "The restore process will stop when 20 addresses are generated in a row which contain no funds. To safely generate more addresses, make a payment to one of the unused addresses which has already been generated."
-msgstr "如果在不包含资金的行中生成20个地址，则还原过程将停止。要安全地生成更多地址，请对已生成的未使用地址之一进行付款"
+msgstr "当有20个地址资金为空时，恢复过程将停止。要安全地生成更多地址，请对已生成的未使用地址进行付款。"
 
 #: src/js/services/bwcError.js:98
 msgid "The spend proposal is not pending"
@@ -2926,7 +2926,7 @@ msgstr "支付订单未处理"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of wificoin stored in this wallet."
-msgstr "该钱包中存储的热点币总量。"
+msgstr "该钱包中存储的热点币总量"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -3069,7 +3069,7 @@ msgstr "交易记录尚未创建。"
 
 #: www/views/topup.html:104
 msgid "Transaction initiated"
-msgstr "交易发起"
+msgstr "发起交易"
 
 #: src/js/controllers/tx-details.js:119
 msgid "Transaction not available at this time"
@@ -3082,7 +3082,7 @@ msgstr "找不到交易"
 
 #: www/views/modals/chooseFeeLevel.html:55
 msgid "Transactions without fee are not supported."
-msgstr "不支持无率交易"
+msgstr "不支持0费率交易"
 
 #: src/js/controllers/paperWallet.js:109
 msgid "Transfer to"
@@ -3464,7 +3464,7 @@ msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我
 
 #: www/views/tab-scan.html:16
 msgid "You can scan wificoin addresses, payment requests, paper wallets, and more."
-msgstr "您可以扫描热点币地址、 付款申请、 纸钱包和更多。"
+msgstr "您可以扫描热点币地址、 付款申请、 纸钱包或更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3480,7 +3480,7 @@ msgstr "你仍然可以将其从高级中导出 &gt; 导出。"
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英镑, 如果有人愿意换的话 :)"
+msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英镑，如果有人愿意换的话 :)"
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your wificoin."
@@ -3656,3 +3656,11 @@ msgstr "确定"
 #: /src/js/services/profileService.js:524
 msgid "Without encryption, a thief or another application on this device may be able to access your funds."
 msgstr "如果没有加密，这个设备上的其他人或其他应用程序都可能能够访问您的资金。"
+
+#: /view/www/tab-home:60
+msgid "Talkblock community"
+msgstr "区块谈社区"
+
+#: /view/www/tab-home:68
+msgid "Blockchian BBS"
+msgstr "区块链技术交流论坛"
