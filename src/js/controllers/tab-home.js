@@ -146,7 +146,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     };
 
     $scope.goToDownload = function() {
-      var url = 'https://github.com/bitpay/copay/releases/latest';
+      var url = 'https://github.com/wificoin-project/copay-wificoin/releases/latest';
       var optIn = true;
       var title = gettextCatalog.getString('Update Available');
       var message = gettextCatalog.getString('An update to this app is available. For your security, please update to the latest version.');

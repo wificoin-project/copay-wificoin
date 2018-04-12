@@ -74,7 +74,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     release: {
-      url: 'https://github.com/wificoin-project/copay-wificoin/releases/latest'
+      url: 'https://api.github.com/repos/wificoin-project/copay-wificoin/releases/latest'
     },
 
     pushNotificationsEnabled: true,
