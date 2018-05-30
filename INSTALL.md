@@ -41,6 +41,6 @@ npm run apply:copay
 npm run postinstall
 npm start
 ```
-after run these steps, u will install copay-wificoin wallet 
+after these steps,  copay-wificoin will work! 
 
 if u encountered any problem, pls let me know by join our qq group: 424031785
