@@ -9,7 +9,7 @@
     "bitpay",
     "copay",
     "multisignature",
-    "bitcore"
+    "wificoin"
   ],
   "main": "www/index.html",
   "title": "*USERVISIBLENAME*",
