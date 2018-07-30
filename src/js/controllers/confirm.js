@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('confirmController', function($rootScope, $scope, $interval, $filter, $timeout, $ionicScrollDelegate, gettextCatalog, walletService, platformInfo, lodash, configService, $stateParams, $window, $state, $log, profileService, bitcore, bitcoreCash, txFormatService, ongoingProcess, $ionicModal, popupService, $ionicHistory, $ionicConfig, payproService, feeService, bwcError, txConfirmNotification, externalLinkService) {
+angular.module('copayApp.controllers').controller('confirmController', function($rootScope, $scope, $interval, $filter, $timeout, $ionicScrollDelegate, gettextCatalog, walletService, platformInfo, lodash, configService, $stateParams, $window, $state, $log, profileService, bitcore, bitcoreCash, txFormatService, ongoingProcess, $ionicModal, popupService, $ionicHistory, $ionicConfig, payproService, feeService, bwcError, txConfirmNotification, externalLinkService, portalPaymentService) {
 
   var countDown = null;
   var CONFIRM_LIMIT_USD = 20;
@@ -592,6 +592,9 @@ angular.module('copayApp.controllers').controller('confirmController', function(
               txid: txp.txid
             });
           }
+
+          // 验证是否为portal认证
+          portalPaymentService.goAuth(txp.txid, tx.origToAddress, tx.amountValueStr);
         }, onSendStatusChange);
       };
 

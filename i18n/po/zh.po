@@ -3664,3 +3664,15 @@ msgstr "区块谈社区"
 #: /view/www/tab-home:68
 msgid "Blockchian BBS"
 msgstr "区块链技术交流论坛"
+
+#: /view/www/tab-home:78
+msgid "Portal Payment"
+msgstr "WiFi 上网支付订单"
+
+#: /view/www/tab-home:78
+msgid "Waiting for pay"
+msgstr "等待支付"
+
+#: /src/js/services/onGoingProcess.js:52
+msgid "Waiting for validationt..."
+msgstr "等待服务器验证"

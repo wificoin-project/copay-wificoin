@@ -48,7 +48,8 @@ angular.module('copayApp.services').factory('ongoingProcess', function($log, $ti
     'buyingGiftCard': 'Buying Gift Card...',
     'topup': gettext('Top up in progress...'),
     'duplicatingWallet': gettext('Duplicating wallet...'),
-    'connectingShapeshift': gettext('Connecting to Shapeshift...')
+    'connectingShapeshift': gettext('Connecting to Shapeshift...'),
+    'redirectAuthServerCallback': gettext('Waiting for validationt...')
   };
 
   root.clear = function() {

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('copayApp.controllers').controller('tabHomeController',
-  function($rootScope, $timeout, $scope, $state, $stateParams, $ionicModal, $ionicScrollDelegate, $window, gettextCatalog, lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
+  function($rootScope, $timeout, $scope, $state, $stateParams, $ionicModal, $ionicScrollDelegate, $window, gettextCatalog, lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService, portalPaymentService) {
     var wallet;
     var listeners = [];
     var notifications = [];
@@ -87,6 +87,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
 
     $scope.$on("$ionicView.enter", function(event, data) {
       updateAllWallets();
+      updateWiFiPortal();
 
       addressbookService.list(function(err, ab) {
         if (err) $log.error(err);
@@ -98,7 +99,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
           var wallet = profileService.getWallet(walletId);
           updateWallet(wallet);
           if ($scope.recentTransactionsEnabled) getNotifications();
-
+          updateWiFiPortal();
         }),
         $rootScope.$on('Local/TxAction', function(e, walletId) {
           $log.debug('Got action for wallet ' + walletId);
@@ -218,15 +219,15 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     var updateAllWallets = function() {
       var wallets = [];
       $scope.walletsBtc = profileService.getWallets({coin: 'btc'});
-      $scope.walletsBch = profileService.getWallets({coin: 'bch'});
+      //$scope.walletsBch = profileService.getWallets({coin: 'bch'});
 
       lodash.each($scope.walletsBtc, function(wBtc) {
         wallets.push(wBtc);
       });
 
-      lodash.each($scope.walletsBch, function(wBch) {
-        wallets.push(wBch);
-      });
+      //lodash.each($scope.walletsBch, function(wBch) {
+      //  wallets.push(wBch);
+      //});
 
       if (lodash.isEmpty(wallets)) return;
 
@@ -289,6 +290,24 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         }, 10);
       });
     };
+
+    var updateWiFiPortal = function() {
+        // wifi portal 支付参数, 控制页面支付订单显示
+        var payParams = portalPaymentService.getPayParams();
+
+        $scope.wifiPortalPayState = payParams.payState;
+        $scope.wifiPortalPayAmount = payParams.toAmount;
+        if (!$scope.wifiPortalPaytime)
+            $scope.wifiPortalPaytime = payParams.timestamp;
+        else
+            $scope.wifiPortalPaytime += 1;
+
+        $scope.sendPortalPayment = portalPaymentService.goSend;
+        $timeout(function() {
+          $ionicScrollDelegate.resize();
+          $scope.$apply();
+        }, 10);
+    }
 
     $scope.hideHomeTip = function() {
       storageService.setHomeTipAccepted('accepted', function() {
