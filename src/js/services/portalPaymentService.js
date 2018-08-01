@@ -9,7 +9,7 @@ angular.module('copayApp.services').factory('portalPaymentService', function($lo
 
     root.goSend = function() {
         if (portalPaymentParams.payState)
-            incomingData.redir("bitcoin:" + portalPaymentParams.toAddress + "?amount=" + portalPaymentParams.toAmount);
+            incomingData.redir("wificoin:" + portalPaymentParams.toAddress + "?amount=" + portalPaymentParams.toAmount);
     }
 
     root.goAuth = function(txid, address, amount) {
@@ -17,10 +17,11 @@ angular.module('copayApp.services').factory('portalPaymentService', function($lo
             if (portalPaymentParams.toAddress == address && (portalPaymentParams.toAmount * 1000000000 == amount * 1000000000)) {
                 portalPaymentParams.payState = false;
                 $timeout(function() {
-                    ongoingProcess.set('redirectAuthServerCallback', true);
-                    //externalLinkService.open(portalPaymentParams.authServer + "?orderNumber=" + portalPaymentParams.orderNumber + "&txid=" + txid);
-                    var callBackURI = portalPaymentParams.authServer + "?orderNumber=" + portalPaymentParams.orderNumber + "&txid=" + txid;
-                    window.location.href = callBackURI;
+					if (portalPaymentParams.type == 1) {
+                    	ongoingProcess.set('redirectAuthServerCallback', true);
+                    	var callBackURI = portalPaymentParams.authServer + "?orderNumber=" + portalPaymentParams.orderNumber + "&txid=" + txid;
+                    	window.location.href = callBackURI;
+					}
                 }, 100);
             }
         }

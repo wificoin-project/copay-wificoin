@@ -54,28 +54,14 @@
         On this screen you can see all your wallets, accounts, and assets.
       </div>
     </div>
-
-    <div class="list card">
-      <div class="item item-icon-right item-heading">
-        <span translate>Talkblock community</span>
+ 
+    <div class="list card homeTip" ng-if="homeTip" ng-hide="!wifiPortalPayState">
+			<div class="item item-icon-right item-heading">
+        <a ng-click="hideHomeTip()"><i class="icon ion-ios-close-empty close-home-tip"></i></a>
       </div>
-      <div>
-      <a ng-click="openExternalLink('https://talkblock.org')" class="item item-sub item-icon-left item-big-icon-left">
-        <i class="icon big-icon-svg">
-          <img src="img/icon-talkblock.svg" class="bg"/>
-        </i>
-        <span translate>Talkblock</span>
-        <p>
-          <span class="ng-binding" translate>Blockchian BBS</span>
-          &nbsp;
-        </p>
-      </a>
-      </div>
-    </div>
 
-    <div class="list card" ng-hide="!wifiPortalPayState">
       <a class="item item-icon-right item-heading">
-        {{'Portal Payment'|translate}}
+        {{wifiPortalPayTitle}}
       </a>
 
       <div ng-click="sendPortalPayment()">
@@ -104,6 +90,24 @@
               </span>
             </div>
         </a>
+      </div>
+    </div>
+		
+		<div class="list card">
+      <div class="item item-icon-right item-heading">
+        <span translate>Talkblock community</span>
+      </div>
+      <div>
+      <a ng-click="openExternalLink('https://talkblock.org')" class="item item-sub item-icon-left item-big-icon-left">
+        <i class="icon big-icon-svg">
+          <img src="img/icon-talkblock.svg" class="bg"/>
+        </i>
+        <span translate>Talkblock</span>
+        <p>
+          <span class="ng-binding" translate>Blockchian BBS</span>
+          &nbsp;
+        </p>
+      </a>
       </div>
     </div>
 

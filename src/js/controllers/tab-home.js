@@ -295,8 +295,9 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         // wifi portal 支付参数, 控制页面支付订单显示
         var payParams = portalPaymentService.getPayParams();
 
-        $scope.wifiPortalPayState = payParams.payState;
-        $scope.wifiPortalPayAmount = payParams.toAmount;
+        $scope.wifiPortalPayState 	= payParams.payState;
+        $scope.wifiPortalPayAmount 	= payParams.toAmount;
+		$scope.wifiPortalPayTitle	= payParams.payTitle;
         if (!$scope.wifiPortalPaytime)
             $scope.wifiPortalPaytime = payParams.timestamp;
         else
