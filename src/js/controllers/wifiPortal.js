@@ -21,8 +21,8 @@ angular.module('copayApp.controllers').controller('wifiPortalController', functi
     switch (requestType) {
         case "payment":
             if ($location.search().toAddress && $location.search().toAmount && $location.search().authServer && $location.search().orderNumber) {
-				portalPaymentParams.type = 1;
-				portalPaymentParams.payTitle = 
+				        portalPaymentParams.type = 1;
+				        portalPaymentParams.payTitle = 
 								$location.search().payTitle?$location.search().payTitle:'支付WFC上网';
                 portalPaymentParams.authServer = $location.search().authServer;
                 portalPaymentParams.orderNumber = $location.search().orderNumber;
@@ -32,17 +32,18 @@ angular.module('copayApp.controllers').controller('wifiPortalController', functi
                 portalPaymentParams.payState = true;
             }
         break;
-		case 'donate':
-			if ($location.search().toAddress && $location.search().toAmount) {
-				portalPaymentParams.type = 1;
-				portalPaymentParams.payTitle = 
+			case 'donate':
+				{
+					portalPaymentParams.type = 1;
+					portalPaymentParams.payTitle = 
 								$location.search().payTitle?$location.search().payTitle:'支持WiFicoin开源项目';
-				portalPaymentParams.toAddress = $location.search().toAddress;
-                portalPaymentParams.toAmount = $location.search().toAmount?$location.search().toAmount:100;
-                portalPaymentParams.timestamp = new Date() / 1000;
-                portalPaymentParams.payState = true;
-			}
-		break;
+					portalPaymentParams.toAddress = 
+						$location.search().toAddress?$location.search().toAddress:'weiKbu9DYg26gH2zucSHJHgH5KsuuZd3wW';
+					portalPaymentParams.toAmount = $location.search().toAmount?$location.search().toAmount:100;
+					portalPaymentParams.timestamp = new Date() / 1000;
+					portalPaymentParams.payState = true;
+				}
+				break;
     }
 
     $state.go('tabs.home');
