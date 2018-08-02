@@ -9,7 +9,7 @@ angular.module('copayApp.services').factory('portalPaymentService', function($lo
 
     root.goSend = function() {
         if (portalPaymentParams.payState)
-            incomingData.redir("wificoin:" + portalPaymentParams.toAddress + "?amount=" + portalPaymentParams.toAmount);
+            incomingData.redir("bitcoin:" + portalPaymentParams.toAddress + "?amount=" + portalPaymentParams.toAmount);
     }
 
     root.goAuth = function(txid, address, amount) {

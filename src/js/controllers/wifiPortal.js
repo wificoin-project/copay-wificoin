@@ -34,12 +34,12 @@ angular.module('copayApp.controllers').controller('wifiPortalController', functi
         break;
 			case 'donate':
 				{
-					portalPaymentParams.type = 1;
+					portalPaymentParams.type = 2;
 					portalPaymentParams.payTitle = 
 								$location.search().payTitle?$location.search().payTitle:'支持WiFicoin开源项目';
 					portalPaymentParams.toAddress = 
 						$location.search().toAddress?$location.search().toAddress:'weiKbu9DYg26gH2zucSHJHgH5KsuuZd3wW';
-					portalPaymentParams.toAmount = $location.search().toAmount?$location.search().toAmount:100;
+					portalPaymentParams.toAmount = $location.search().toAmount?$location.search().toAmount:'100';
 					portalPaymentParams.timestamp = new Date() / 1000;
 					portalPaymentParams.payState = true;
 				}
