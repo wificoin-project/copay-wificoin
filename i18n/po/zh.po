@@ -808,7 +808,7 @@ msgstr "创建个人钱包"
 
 #: www/views/tab-create-shared.html:3
 msgid "Create Shared Wallet"
-msgstr "创建自己的免费钱包"
+msgstr "创建共享钱包"
 
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:89
@@ -826,7 +826,7 @@ msgstr "创建共享钱包"
 
 #: www/views/tab-create-shared.html:160
 msgid "Create {{formData.requiredCopayers}}-of-{{formData.totalCopayers}} wallet"
-msgstr "创建 {{formData.requiredCopayers}} 的{{formData.totalCopayers}} 钱包"
+msgstr "创建钱包"
 
 #: www/views/modals/txp-details.html:81
 #: www/views/tx-details.html:60
@@ -844,7 +844,7 @@ msgstr "正在创建交易"
 #: www/views/modals/chooseFeeLevel.html:34
 #: www/views/preferencesFee.html:20
 msgid "Current fee rate for this policy"
-msgstr "此策略的当前费用率"
+msgstr "此策略的当前费率"
 
 #: src/js/services/feeService.js:15
 msgid "Custom"
@@ -1617,7 +1617,7 @@ msgstr "衍生路径无效"
 
 #: src/js/controllers/copayers.js:90
 msgid "Invitation to share a {{appName}} Wallet"
-msgstr "邀请分享 {{appName}} 钱包"
+msgstr "邀请加入 {{appName}} 共享钱包"
 
 #: www/views/mercadoLibreCards.html:20
 #: www/views/modals/mercadolibre-card-details.html:48
@@ -1649,8 +1649,8 @@ msgid "Join"
 msgstr "加入"
 
 #: src/js/controllers/copayers.js:85
-msgid "Join my {{appName}} Wallet. Here is the invitation code: {{secret}} You can download {{appName}} for your phone or desktop at {{appUrl}}"
-msgstr "加入我的 {{appName}} 钱包。这里是邀请码︰ {{secret}} 你可以下载为您的电话或桌面的 {{appUrl}} {{appName}}"
+msgid "Join my {{appName}} Wallet. Here is the invitation code: {{secret}}"
+msgstr "加入我的 {{appName}} 钱包。这里是邀请码︰ {{secret}}"
 
 #: www/views/add.html:30
 #: www/views/join.html:5
@@ -1753,7 +1753,7 @@ msgstr "我"
 
 #: src/js/controllers/feedback/rateCard.js:32
 msgid "Meh - it's alright"
-msgstr "咩-没关系"
+msgstr "没关系"
 
 #: src/js/controllers/tx-details.js:165
 #: www/views/modals/paypro.html:48
@@ -2665,7 +2665,7 @@ msgstr "邀请您的朋友分享爱。"
 
 #: www/views/copayers.html:20
 msgid "Share this invitation with your copayers"
-msgstr "将此邀请与你的 copayers 共享"
+msgstr "将此邀请码发送给您的成员"
 
 #: src/js/controllers/feedback/complete.js:5
 #: www/views/tab-settings.html:36
@@ -3033,7 +3033,7 @@ msgstr "总锁定余额"
 
 #: www/views/tab-create-shared.html:35
 msgid "Total number of copayers"
-msgstr "Copayers 的总数"
+msgstr "成员的总数"
 
 #: www/views/addresses.html:81
 msgid "Total wallet inputs"
@@ -3221,7 +3221,7 @@ msgstr "正在等待 Trezor..."
 
 #: www/views/copayers.html:48
 msgid "Waiting for copayers"
-msgstr "正在等待 copayers"
+msgstr "正在等待其他成员加入"
 
 #: www/views/copayers.html:53
 msgid "Waiting..."
@@ -3525,11 +3525,11 @@ msgstr "你的想法、 反馈或评论"
 
 #: www/views/tab-create-shared.html:22
 msgid "Your name"
-msgstr "您的名字："
+msgstr "您的名字或身份"
 
 #: www/views/join.html:16
 msgid "Your nickname"
-msgstr "你的昵称"
+msgstr "您的名字或身份"
 
 #: www/views/tab-export-file.html:11
 #: www/views/tab-import-file.html:20

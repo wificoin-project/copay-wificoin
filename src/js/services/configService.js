@@ -24,7 +24,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       copay: {
         url: 'https://copay.io/#download'
       },
-	wificoin: {
+      wificoin: {
 	  url: 'https://wfc.wificoin.club/wallet'
 	}	
     },
