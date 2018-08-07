@@ -24,7 +24,7 @@ msgstr "（重复支付）"
 
 #: www/views/modals/txp-details.html:159
 msgid "* A payment proposal can be deleted if 1) you are the creator, and no other copayer has signed, or 2) 24 hours have passed since the proposal was created."
-msgstr "* 如果 1) 你是创造者，及没有其他 copayer 签名，或 2) 24 小时已经过去，支付订单将被删除。"
+msgstr "如果您是发起者并且还没有其他成员签名，您可以在24小时内删除该订单。"
 
 #: www/views/tx-details.html:82
 msgid "- {{btx.feeRateStr}} of the transaction"
@@ -2266,11 +2266,11 @@ msgstr "订单被接受"
 #: src/js/controllers/tx-details.js:78
 #: www/views/confirm.html:125
 msgid "Proposal Created"
-msgstr "订单创建"
+msgstr "创建订单"
 
 #: www/views/includes/walletActivity.html:27
 msgid "Proposal Deleted"
-msgstr "订单删除"
+msgstr "删除订单"
 
 #: www/views/includes/walletActivity.html:35
 msgid "Proposal Rejected"
@@ -2319,7 +2319,7 @@ msgstr "阅读少"
 
 #: www/views/addresses.html:51
 msgid "Read more"
-msgstr "阅读更多"
+msgstr "查看更多"
 
 #: src/js/controllers/preferences.js:65
 #: src/js/controllers/tx-details.js:54
@@ -2328,7 +2328,7 @@ msgstr "去我們的維基閱讀更多"
 
 #: src/js/controllers/preferencesCash.js:61
 msgid "Read only wallet"
-msgstr "钱包只供唯讀"
+msgstr "只读钱包"
 
 #: www/views/tab-receive.html:3
 #: www/views/tabs.html:7
