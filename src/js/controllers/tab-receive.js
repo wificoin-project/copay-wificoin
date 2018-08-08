@@ -37,8 +37,8 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
     if (!$scope.wallet || $scope.generatingAddress || !$scope.wallet.isComplete()) return;
 	    var amount = Math.round(Math.random()*100+1);
 		var donateUrl = 'https://wfc.xyblock.net/#/wifiPortal/donate?toAmount='+amount+'&toAddress=' + $scope.addr;		
-		donateUrl += '&payTitle=跪求土豪打赏';
-		$scope.donate = donateUrl;
+		donateUrl += '&payTitle=' + '跪求土豪打赏';
+		$scope.donate = encodeURI(donateUrl);
   };
 
   $scope.goCopayers = function() {
