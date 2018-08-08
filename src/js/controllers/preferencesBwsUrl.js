@@ -25,7 +25,7 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'https://wfc.wificoin.club:3232/bws/api'
+          bws = 'https://wfc.xyblock.net/bws/api'
           break;
         case 'sta':
         case 'staging':
@@ -33,7 +33,7 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
           break;
         case 'loc':
         case 'local':
-          bws = 'https://wfc.wificoin.club:3232/bws/api'
+          bws = 'http://localhost:3232/bws/api'
           break;
       };
       if (bws) {

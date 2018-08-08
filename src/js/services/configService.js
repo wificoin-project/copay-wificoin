@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://wfc.wificoin.club:3232/bws/api',
+      url: 'https://wfc.xyblock.net/bws/api',
     },
 
     download: {
@@ -24,9 +24,9 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       copay: {
         url: 'https://copay.io/#download'
       },
-	wificoin: {
-	  url: 'https://wfc.wificoin.club/wallet'
-	}	
+	  wificoin: {
+	    url: 'https://wfc.xyblock.net/wallet'
+	  }	
     },
 
     rateApp: {
@@ -73,7 +73,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://wfc.wificoin.club:3001/insight-api/rates',
+      url: 'https://wfc.xyblock.net/insight-api/rates',
     },
 
     release: {
@@ -91,7 +91,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     log: {
-      filter: 'debug',
+      filter: 'error',
     },
   };
 

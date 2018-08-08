@@ -32,6 +32,12 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
       }, 10);
     });
   };
+  
+  $scope.requestDonate = function() {	
+    if (!$scope.wallet || $scope.generatingAddress || !$scope.wallet.isComplete()) return;
+		var donateUrl = 'https://wfc.xyblock.net/#/wifiPortal/donate?toAmount=10&toAddress=' + $scope.protoAddr;		
+		popupService.showAlert(donateUrl);
+  };
 
   $scope.goCopayers = function() {
     $ionicHistory.removeBackView();

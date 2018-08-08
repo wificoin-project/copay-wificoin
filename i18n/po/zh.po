@@ -242,7 +242,7 @@ msgstr "有人在监视你吗？"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your wificoin."
-msgstr "请确认当前没有人在监视你的屏幕！因为只要有人知道了你的恢复短语，他就拥有你的热点币完全访问权限，甚至可以直接用于消费！"
+msgstr "请确认当前没有人在监视你的屏幕！因为只要有人知道了你的恢复短语，他就拥有你的WFC完全访问权限，甚至可以直接用于消费！"
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -303,7 +303,7 @@ msgstr "BIP32 路径的地址衍生"
 
 #: www/views/preferencesCash.html:25
 msgid "BTC wallets"
-msgstr "热点币钱包"
+msgstr "WFC钱包"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -373,27 +373,27 @@ msgstr "手续费策略"
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
 msgid "Wificoin Wallets"
-msgstr "热点币钱包"
+msgstr "WFC钱包"
 
 #: src/js/services/incomingData.js:151
 msgid "Wificoin cash Payment"
-msgstr "热点币现金支付"
+msgstr "WFC现金支付"
 
 #: www/views/onboarding/tour.html:31
 msgid "Wificoin is a currency."
-msgstr "热点币也会是一种通用货币"
+msgstr "WFC也会是一种通用货币"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Wificoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "热点币和其他货币不同 — — 它不能通过银行或者任何网络服务来持有"
+msgstr "WFC和其他货币不同 — — 它不能通过银行或者任何网络服务来持有"
 
 #: www/views/onboarding/tour.html:18
 msgid "Wificoin is secure,<br>digital money."
-msgstr "热点币是一种安全的 <br>数字货币"
+msgstr "WFC是一种安全的 <br>数字货币"
 
 #: www/views/preferencesFee.html:11
 msgid "Wificoin transactions include a fee collected by miners on the network."
-msgstr "在网络上交易热点币被矿工所收取的费用。"
+msgstr "在网络上交易WFC被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -423,11 +423,14 @@ msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
 msgid "Buy &amp; Sell Wificoin"
-msgstr "购买或出售热点币"
+msgstr "购买或出售WFC"
 
 #: www/views/tab-send.html:40
-msgid "Get Wificoin"
-msgstr "获取热点币"
+msgid "Get Free WiFicoin"
+msgstr "免费获取WFC"
+
+msgid "Get WiFicoin From Exchange"
+msgstr "交易所获取WFC"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -440,7 +443,7 @@ msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Wificoin..."
-msgstr "正在发送 热点币..."
+msgstr "正在发送 WFC..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -814,7 +817,7 @@ msgstr "创建自己的免费钱包"
 #: www/views/tab-home.html:89
 #: www/views/tab-send.html:41
 msgid "Create wificoin wallet"
-msgstr "创建热点币钱包"
+msgstr "创建WFC钱包"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -940,7 +943,7 @@ msgstr "正在复制钱包……"
 
 #: www/views/addresses.html:19
 msgid "Each wificoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "每个热点币钱包可以从您的 12 字备份生成亿万个地址。并在您每次收到付款时自动生成一个新地址。"
+msgstr "每个WFC钱包可以从您的 12 字备份生成亿万个地址。并在您每次收到付款时自动生成一个新地址。"
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -1299,6 +1302,9 @@ msgstr "资金将会转移到"
 #: www/views/tab-receive.html:51
 msgid "Generate new address"
 msgstr "生成新的地址"
+
+msgid "Generate donate url"
+msgstr "求打赏WFC"
 
 #: src/js/services/onGoingProcess.js:22
 msgid "Generating .csv file..."
@@ -2769,7 +2775,7 @@ msgstr "这笔交易将需要非常高的手续费"
 
 #: www/views/tab-send.html:33
 msgid "Start sending wificoin"
-msgstr "开始发送热点币"
+msgstr "开始发送WFC"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -3002,11 +3008,11 @@ msgstr "发送到"
 
 #: www/views/tab-send.html:37
 msgid "To get started, get wificoin or share your address. You can receive wificoin from any wallet or service."
-msgstr "开始之前，您需要先去搞一些热点币或共享您的地址。"
+msgstr "开始之前，您需要先去搞一些WFC。"
 
 #: www/views/tab-send.html:38
 msgid "To get started, you'll need to create a wificoin wallet and get some wificoin."
-msgstr "开始之前，您需要创建一个热点币钱包，并获得一些热点币。"
+msgstr "开始之前，您需要创建一个WFC钱包，并获得一些WFC。"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
