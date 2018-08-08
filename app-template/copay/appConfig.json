@@ -1,11 +1,11 @@
 {
   "packageName": "copay-wificoin",
   "packageDescription": "WiFicoin Wallet",
-  "packageNameId": "com.bitpay.copay-wificoin",
+  "packageNameId": "club.wificoin.copay",
   "statusBarColor": "#192c3a",
   "userVisibleName": "WiFicoin",
   "purposeLine": "WiFicoin Wallet",
-  "bundleName": "copay-wificoin",
+  "bundleName": "copay",
   "appUri": "copay-wificoin",
   "name": "copay-wificoin",
   "nameNoSpace": "copay-wificoin",
