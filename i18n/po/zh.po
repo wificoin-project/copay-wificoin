@@ -1304,7 +1304,7 @@ msgid "Generate new address"
 msgstr "生成新的地址"
 
 msgid "Generate donate url"
-msgstr "求打赏WFC"
+msgstr "跪求土豪打赏"
 
 #: src/js/services/onGoingProcess.js:22
 msgid "Generating .csv file..."
@@ -2702,7 +2702,7 @@ msgstr "显示高级选项"
 
 #: www/views/tab-send.html:42
 msgid "Show wificoin address"
-msgstr "显示热点币地址"
+msgstr "显示WFC地址"
 
 #: www/views/tab-send.html:64
 msgid "Show more"
