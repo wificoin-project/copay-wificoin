@@ -200,7 +200,13 @@ msgstr "差不多完成了 ！让我们回顾一下。"
 #: www/views/preferencesAltCurrency.html:4
 #: www/views/tab-settings.html:72
 msgid "Alternative Currency"
-msgstr "替代货币"
+msgstr "币价显示"
+
+msgid "Chinese Yuan"
+msgstr "人民币"
+
+msgid "US Dollar"
+msgstr "美元"
 
 #: src/js/controllers/buyAmazon.js:98
 msgid "Amazon.com is not available at this moment. Please try back later."
@@ -1200,6 +1206,15 @@ msgstr "导出失败"
 msgid "Family vacation funds"
 msgstr "家庭度假资金"
 
+msgid "The raise funds"
+msgstr "众筹资金"
+
+msgid "founder"
+msgstr "创始人"
+
+msgid "partner"
+msgstr "合伙人"
+
 #: www/views/tx-details.html:79
 msgid "Fee"
 msgstr "费用"
@@ -1210,7 +1225,7 @@ msgstr "费用等级"
 
 #: src/js/controllers/modals/feeLevels.js:100
 msgid "Fee level is not defined"
-msgstr "未定义收费等级。。"
+msgstr "未定义收费等级"
 
 #: www/views/confirm.html:79
 #: www/views/modals/txp-details.html:99
@@ -2885,7 +2900,7 @@ msgstr "衍生路径"
 
 #: www/views/onboarding/tour.html:37
 msgid "The exchange rate changes with the market."
-msgstr "汇率是我们想象出来的"
+msgstr "汇率由市场来决定"
 
 #: www/views/preferencesFee.html:12
 msgid "The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
