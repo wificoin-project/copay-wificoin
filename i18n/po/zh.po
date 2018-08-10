@@ -183,7 +183,7 @@ msgstr "您可能无法立即支出所有的钱包余额"
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before wificoin addresses can be created."
-msgstr "在热点币地址创建之前，签名的所有设备都必须添加到这个对数钱包。"
+msgstr "在WFC地址创建之前，签名的所有设备都必须添加到这个多重签名钱包。"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -236,7 +236,7 @@ msgstr "本程序有新版更新。为了您的安全，请更新到最新版本
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your wificoin."
-msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的热点币。"
+msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的WFC。"
 
 #: www/views/addresses.html:94
 msgid "Approximate Wificoin network fee to transfer wallet's balance (with normal priority)"
@@ -361,7 +361,7 @@ msgstr "BitPay Visa&reg; 牌"
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
 msgid "Wificoin Address"
-msgstr "热点币地址"
+msgstr "WFC地址"
 
 #: www/views/includes/walletSelector.html:42
 #: www/views/tab-home.html:112
@@ -1501,7 +1501,7 @@ msgstr "我知道了"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my wificoin can only be recovered with the backup phrase."
-msgstr "我明白，如果这个应用程序被移动到另一个设备或删除，我的热点币只能用备份短语恢复。"
+msgstr "我明白，如果这个应用程序被移动到另一个设备或删除，我的WFC只能用备份短语恢复。"
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1659,7 +1659,7 @@ msgstr "此电子邮件地址是正确的？"
 
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your wificoins secure against hypothetical attacks by quantum computers."
-msgstr "避免重复使用地址是一个不错的办法 - 这既保护您的隐私，也让热点币免受量子计算机的假想攻击"
+msgstr "避免重复使用地址是一个不错的办法 - 这既保护您的隐私，也让WFC免受量子计算机的假想攻击"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1875,7 +1875,7 @@ msgstr "授权密钥未定义"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no wificoin."
-msgstr "不备份! 热点币就没了!"
+msgstr "不备份! WFC就没了!"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1932,7 +1932,7 @@ msgstr "没有可用于接收资金的钱包"
 
 #: www/views/preferencesCash.html:15
 msgid "No wallets eligible for Wificoin Cash support"
-msgstr "没有钱包合乎支持小热点币资格"
+msgstr "没有钱包合乎支持小WFC资格"
 
 #: src/js/controllers/preferencesCash.js:58
 msgid "Non BIP44 wallet"
@@ -1940,7 +1940,7 @@ msgstr "非BIP44钱包"
 
 #: www/views/preferencesCash.html:46
 msgid "Non eligible BTC wallets"
-msgstr "非合格热点币钱包"
+msgstr "非合格WFC钱包"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1977,7 +1977,7 @@ msgstr "注意: 如此热点币钱包由小热点币复制，他們共享相同�
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell wificoin"
-msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖热点币"
+msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于出售WFC"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:54
@@ -2532,7 +2532,7 @@ msgstr "搜索交易"
 
 #: www/views/tab-send.html:18
 msgid "Search or enter wificoin address"
-msgstr "搜索或输入热点币地址"
+msgstr "搜索或输入WFC地址"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2564,7 +2564,7 @@ msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling Wificoin..."
-msgstr "出售热点币......"
+msgstr "出售中的WFC......"
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2947,7 +2947,7 @@ msgstr "支付订单未处理"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of wificoin stored in this wallet."
-msgstr "该钱包中存储的热点币总量"
+msgstr "该钱包中存储的WFC总量"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2978,7 +2978,7 @@ msgstr "这个应用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your wificoin with cutting-edge security."
-msgstr "这个应用程序能够安全的存储你的热点币"
+msgstr "这个应用程序能够安全的存储你的WFC"
 
 #: src/js/controllers/confirm.js:523
 msgid "This wificoin payment request has expired."
@@ -3485,7 +3485,7 @@ msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我
 
 #: www/views/tab-scan.html:16
 msgid "You can scan wificoin addresses, payment requests, paper wallets, and more."
-msgstr "您可以扫描热点币地址、 付款申请、 纸钱包或更多。"
+msgstr "您可以扫描WFC地址、 付款申请、 纸钱包或更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3493,7 +3493,7 @@ msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程
 
 #: www/views/onboarding/tour.html:19
 msgid "You can spend wificoin at millions of websites and stores worldwide."
-msgstr "您将可以在全宇宙数百亿个网站和商店中使用热点币"
+msgstr "您将可以在全宇宙数百亿个网站和商店中使用WFC"
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3505,7 +3505,7 @@ msgstr "您可以将其换成其他货币，如比特币, 美元，欧元或英�
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your wificoin."
-msgstr "热点币只有你自己管理"
+msgstr "WFC只有你自己管理"
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} feng/byte."
@@ -3534,7 +3534,7 @@ msgstr "你的钱包已备份 ！"
 
 #: www/views/tab-home.html:50
 msgid "Your wificoin wallet is ready!"
-msgstr "您的热点币钱包已经准备好了 ！"
+msgstr "您的WFC钱包已经准备好了 ！"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."

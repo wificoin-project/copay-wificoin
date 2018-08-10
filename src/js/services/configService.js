@@ -53,8 +53,8 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         unitToSatoshi: 100000000,
         unitDecimals: 8,
         unitCode: 'btc',
-        alternativeName: 'US Dollar',
-        alternativeIsoCode: 'USD',
+        alternativeName: 'Chinese Yuan',
+        alternativeIsoCode: 'CNY',
       }
     },
 
