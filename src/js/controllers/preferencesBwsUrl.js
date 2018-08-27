@@ -25,7 +25,7 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'https://wfc.xyblock.net/bws/api'
+          bws = 'https://wws.wificoin.club/api'
           break;
         case 'sta':
         case 'staging':

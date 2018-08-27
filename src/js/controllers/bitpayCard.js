@@ -116,7 +116,7 @@ angular.module('copayApp.controllers').controller('bitpayCardController', functi
   };
 
   this.viewOnBlockchain = function(transactionId) {
-    var url = 'https://wfc.xyblock.net/insight-api/tx/' + transactionId;
+    var url = 'https://insight.wificoin.club/insight-api/tx/' + transactionId;
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');
