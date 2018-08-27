@@ -5,11 +5,11 @@
  <desc>Created with Sketch.</desc>
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="358" height="158" id="canvas_background" fill="none"/>
+  <rect fill="none" id="canvas_background" height="158" width="358" y="-1" x="-1"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <text fill="#ffffff" stroke-width="0" x="21.821177" y="62.794675" id="svg_1" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.4380953188176893,0,0,3.7422095033733065,-86.78434601230467,-119.25045052544115) " stroke="#000" font-weight="bold" font-style="italic">WiFicoin</text>
-  <path fill="#ffffff" stroke-width="0" stroke-opacity="null" d="m206.13619,41.55225c3.99562,0 7.75239,1.46067 10.5745,4.11047c2.82861,2.65102 4.38376,6.18328 4.38376,9.94222l6.15959,0c0,-10.91923 -9.47499,-19.8008 -21.11914,-19.8008l0,5.74811l0.00129,0zm0.00779,-10.19193c14.24429,0 25.83003,10.87923 25.83003,24.25068l6.15699,0c0,-16.54127 -14.34943,-30 -31.98831,-30l0,5.74932l0.00129,0zm8.51568,20.23234c0,2.20009 -1.90953,3.9844 -4.26433,3.9844s-4.26433,-1.78431 -4.26433,-3.9844c0,-2.19767 1.90954,-3.98198 4.26433,-3.98198s4.26433,1.7831 4.26433,3.98198z" id="svg_2" stroke="#000"/>
+  <text font-style="italic" font-weight="bold" stroke="#000" transform="matrix(3.1905552330260685,0,0,3.4727734419456078,-54.60086649152832,-100.39284571637116) " xml:space="preserve" text-anchor="start" font-family="Euphoria, sans-serif" font-size="24" id="svg_1" y="62.506721" x="20.880902" stroke-width="0" fill="#ffffff">WiFicoin</text>
+  <path stroke="#000" id="svg_2" d="m215.136177,44.05223c3.99562,0 7.75239,1.46067 10.5745,4.11047c2.82861,2.65102 4.38376,6.18328 4.38376,9.94222l6.15959,0c0,-10.91923 -9.47499,-19.8008 -21.11914,-19.8008l0,5.74811l0.00129,0zm0.00779,-10.19193c14.24429,0 25.83003,10.87923 25.83003,24.25068l6.15699,0c0,-16.54127 -14.34943,-30 -31.98831,-30l0,5.74932l0.00129,0zm8.51568,20.23234c0,2.20009 -1.90953,3.9844 -4.26433,3.9844s-4.26433,-1.78431 -4.26433,-3.9844c0,-2.19767 1.90954,-3.98198 4.26433,-3.98198s4.26433,1.7831 4.26433,3.98198z" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
  </g>
 </svg>
