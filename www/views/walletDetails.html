@@ -36,6 +36,12 @@
         ng-style="{'transform': amountScale}"
         ng-class="{amount__balance: amountIsCollapsible}">
         <strong class="size-36">{{status.totalBalanceStr}}</strong>
+        <div
+          class="size-14 amount-alternative"
+          ng-if="status.totalBalanceAlternative && wallet.network == 'livenet'"
+          ng-style="{opacity: altAmountOpacity}">
+          {{status.totalBalanceAlternative}} {{status.alternativeIsoCode}}
+        </div>
       </div>
 
       <div ng-style="{'transform': amountScale}"
@@ -65,6 +71,10 @@
           <strong>
             {{status.availableBalanceStr}}
           </strong>
+          &nbsp;
+          <span>
+            {{status.spendableBalanceAlternative}} {{status.alternativeIsoCode}}
+          </span>
         </button>
       </div>
 
@@ -106,6 +116,12 @@
         ng-style="{'transform': amountScale}"
         ng-class="{amount__balance: amountIsCollapsible}">
         <strong class="size-36">{{status.totalBalanceStr}}</strong>
+        <div
+          class="size-14 amount-alternative"
+          ng-if="status.totalBalanceAlternative && wallet.network == 'livenet'"
+          ng-style="{opacity: altAmountOpacity}">
+          {{status.totalBalanceAlternative}} {{status.alternativeIsoCode}}
+        </div>
       </div>
 
       <div ng-style="{'transform': amountScale}"
@@ -135,6 +151,10 @@
           <strong>
             {{status.availableBalanceStr}}
           </strong>
+          &nbsp;
+          <span>
+            {{status.spendableBalanceAlternative}} {{status.alternativeIsoCode}}
+          </span>
         </button>
       </div>
 
@@ -175,6 +195,7 @@
         <div class="item item-footer description" ng-show="status.lockedBalanceSat" style="background: white;">
           <span translate>Total Locked Balance</span>:
           <b>{{status.lockedBalanceStr}} </b>
+          <span> {{status.lockedBalanceAlternative}} {{status.alternativeIsoCode}} </span>
         </div>
       </div>
 

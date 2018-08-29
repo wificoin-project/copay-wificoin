@@ -36,9 +36,9 @@ angular.module('copayApp.controllers').controller('amountController', function (
 
       if (hasBTCWallets) {
         availableUnits.push({
-          name: 'Bitcoin',
+          name: 'WiFicoin',
           id: 'btc',
-          shortName: 'BTC',
+          shortName: 'WFC',
         });
       }
 

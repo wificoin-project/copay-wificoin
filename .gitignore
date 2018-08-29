@@ -109,4 +109,5 @@ www/index.html
 ## Firebase
 /GoogleService-Info.plist
 /google-services.json
+package.json
 

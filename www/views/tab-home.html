@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="ng-hide" ng-show="showRateCard.value" ng-include="'views/feedback/rateCard.html'"></div>
+<!--    <div class="ng-hide" ng-show="showRateCard.value" ng-include="'views/feedback/rateCard.html'"></div> -->
     <div class="list card homeTip" ng-if="homeTip">
       <div class="item item-icon-right item-heading">
         <a ng-click="hideHomeTip()"><i class="icon ion-ios-close-empty close-home-tip"></i></a>
@@ -54,8 +54,42 @@
         On this screen you can see all your wallets, accounts, and assets.
       </div>
     </div>
+ 
+    <div class="list card" ng-hide="!wifiPortalPayState">
+      <a class="item item-icon-right item-heading">
+        {{wifiPortalPayTitle}}
+      </a>
 
-    <div class="list card">
+      <div ng-click="sendPortalPayment()">
+        <a class="wallet-details__item item item-sub">
+            <div style="padding-right: 25px">
+              <img src="img/icon-wifi-portal.svg" width="40">
+            </div>
+
+            <div class="wallet-details__tx-content" ng-class="{'no-border': $last}">
+              <div class="wallet-details__tx-title">
+                <span>
+                  <span class="ellipsis" translate>Waiting for pay</span>
+                </span>
+              </div>
+
+              <span class="item-note text-right wallet-details__tx-amount">
+                <span class="wallet-details__tx-amount wallet-details__tx-amount--sent">
+                  <span>
+                  – {{wifiPortalPayAmount}} WFC
+                  </span>
+                </span>
+                <div>
+                  <time class="wallet-details__tx-time" ng-if="wifiPortalPaytime && createdWithinPastDay(wifiPortalPaytime * 1000)">{{wifiPortalPaytime * 1000| amTimeAgo}}</time>
+                  <time class="wallet-details__tx-time" ng-if="wifiPortalPaytime && !createdWithinPastDay(wifiPortalPaytime * 1000)">{{wifiPortalPaytime * 1000| date:'MMMM d, y'}}</time>
+                </div>
+              </span>
+            </div>
+        </a>
+      </div>
+    </div>
+		
+		<div class="list card">
       <div class="item item-icon-right item-heading">
         <span translate>Talkblock community</span>
       </div>
@@ -66,8 +100,8 @@
         </i>
         <span translate>Talkblock</span>
         <p>
-	<span class="ng-binding" translate>Blockchian BBS</span>
-        &nbsp;
+          <span class="ng-binding" translate>Blockchian BBS</span>
+          &nbsp;
         </p>
       </a>
       </div>

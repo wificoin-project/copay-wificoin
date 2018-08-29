@@ -23,7 +23,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
         blockexplorerUrl = 'blockdozer.com/insight';
       }
     } else {
-      blockexplorerUrl = 'wfc.wificoin.club:3001/insight';
+      blockexplorerUrl = 'insight.wificoin.club';
     }
 
     txConfirmNotification.checkIfEnabled(txId, function(res) {

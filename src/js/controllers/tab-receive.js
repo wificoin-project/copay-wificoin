@@ -32,6 +32,14 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
       }, 10);
     });
   };
+  
+  $scope.requestDonate = function() {	
+    if (!$scope.wallet || $scope.generatingAddress || !$scope.wallet.isComplete()) return;
+	    var amount = Math.round(Math.random()*100+1);
+		var donateUrl = 'https://wfc.wificoin.club/#/wifiPortal/donate?toAmount='+amount+'&toAddress=' + $scope.addr;		
+		donateUrl += '&payTitle=' + '跪求土豪打赏';
+		$scope.donate = encodeURI(donateUrl);
+  };
 
   $scope.goCopayers = function() {
     $ionicHistory.removeBackView();
@@ -137,7 +145,9 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
   };
 
   $scope.shareAddress = function() {
-    if (!$scope.isCordova) return;
-    window.plugins.socialsharing.share($scope.protoAddr, null, null, null);
+    if (!$scope.isCordova) {
+	  return;
+	}
+    window.plugins.socialsharing.share($scope.addr, null, null, null);
   }
 });

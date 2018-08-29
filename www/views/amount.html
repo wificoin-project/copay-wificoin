@@ -53,7 +53,13 @@
       <div class="amount">
         <div class="amount__editable" ng-class="{'amount__editable--minimize': smallFont, 'amount__editable--standard': !smallFont, 'amount__editable--placeholder': !amount}">
           <span class="amount__number">{{amount || "0.00" }}</span>
-          <a class="amount__currency-toggle">WFC</a>
+          <a class="amount__currency-toggle" ng-click="changeUnit()">{{unit}}</a>
+        </div>
+        <div ng-class="{'amount__results--minimize': smallFont, 'amount__results--standard': !smallFont, 'amount__results--placeholder': amountResult}"
+          ng-click="changeAlternativeUnit()">
+          <div class="amount__result" ng-show="globalResult">{{globalResult}} {{unit}}</div>
+          <div class="amount__result-equiv" ng-show="alternativeAmount">&asymp; {{alternativeAmount || '0.00'}} {{alternativeUnit}}</div>
+          <div class="amount__result-equiv" ng-show="!alternativeAmount">&nbsp;</div>
         </div>
       </div>
     </div>

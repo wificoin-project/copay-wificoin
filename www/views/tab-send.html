@@ -37,7 +37,8 @@
           <span ng-show="hasWallets" translate>To get started, get wificoin or share your address. You can receive wificoin from any wallet or service.</span>
           <span ng-show="!hasWallets" translate>To get started, you'll need to create a wificoin wallet and get some wificoin.</span>
           <div class="padding">
-            <a class="button button-standard button-primary" ng-click="openExternalLink('https://talkblock.org')" ng-show="hasWallets" translate>Get Wificoin</a>
+            <a class="button button-standard button-primary" ng-click="openExternalLink('http://www.vbitex.com/')" ng-show="hasWallets" translate>Get WiFicoin From Exchange</a>
+            <a class="button button-standard button-primary" ng-click="openExternalLink('https://talkblock.org/question/87')" ng-show="hasWallets" translate>Get Free WiFicoin</a>
             <button class="button button-standard button-primary" ng-click="createWallet()" ng-show="!hasWallets" translate>Create wificoin wallet</button>
             <button class="button button-standard button-secondary" ui-sref="tabs.receive" ng-show="hasWallets" translate>Show wificoin address</button>
           </div>
